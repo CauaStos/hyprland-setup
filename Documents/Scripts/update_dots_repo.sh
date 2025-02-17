@@ -15,7 +15,7 @@ cd ~/Documents/dotfiles/ || exit
 
 
 #Document Folders Copy
-include=(--include 'Hyprlock Assets/' --include 'Scripts/' --include 'Wallpapers/' --exclude '*/')
+include=(--include 'Hyprlock Assets/' --include 'Scripts/' --include 'Scripts/colors/' --include 'Wallpapers/' --exclude '*/')
 
 echo "Copying 'Documents' folders..."
 
