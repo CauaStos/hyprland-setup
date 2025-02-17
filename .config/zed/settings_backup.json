@@ -8,7 +8,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "features": {
-    "edit_prediction_provider": "none"
+    "inline_completion_provider": "none"
   },
   "auto_update_extensions": {
     "catppuccin": false
@@ -26,6 +26,23 @@
   "languages": {
     "Rust": {
       "formatter": "language_server"
+    },
+    "Python": {
+      "language_servers": ["ruff", "!pylsp", "python-refactoring", "!pyright"],
+      "format_on_save": "on",
+      "formatter": [
+        {
+          "code_actions": {
+            "source.organizeImports.ruff": true,
+            "source.fixAll.ruff": true
+          }
+        },
+        {
+          "language_server": {
+            "name": "ruff"
+          }
+        }
+      ]
     }
   }
 }

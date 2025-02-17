@@ -1,7 +1,6 @@
 [config.wallpaper]
-command = "swww"
-arguments = ["img", "--transition-step", "10", "--transition-fps", "144"]
-set = true
+command = "echo"
+set = false
 
 
 [templates.gtk3]
@@ -43,8 +42,7 @@ output_path = '~/.config/spicetify/Themes/text/color.ini'
 
 [templates.icon_color]
 input_path = '~/.config/matugen/templates/icon_color_input.txt'
-output_path = '~/Documents/Scripts/icon_color_input.txt'
-post_hook = "python ~/Documents/Scripts/icon_color_change.py; gsettings set org.gnome.desktop.interface color-scheme ''; gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'"
+output_path = '~/Documents/Scripts/colors/icon_color_input.txt'
 
 [templates.fuzzel]
 input_path = '~/.config/matugen/templates/fuzzel.ini'
