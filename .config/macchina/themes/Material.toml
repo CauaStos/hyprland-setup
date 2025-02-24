@@ -1,8 +1,8 @@
 # mezora theme - sauce for macchina cli
 
 separator = "❯"
-separator_color = "#bec6dc"
-key_color = "#acc7ff"
+separator_color = "#e6bdbc"
+key_color = "#ffb3b3"
 prefer_small_ascii = true
 
 [palette]
@@ -21,5 +21,5 @@ key_color = false
 separator_color = false
 
 [custom_ascii]
-color = "#acc7ff"
+color = "#ffb3b3"
 path = "~/.config/macchina/themes/archlogo.txt"

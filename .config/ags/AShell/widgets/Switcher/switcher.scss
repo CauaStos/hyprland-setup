@@ -1,0 +1,33 @@
+@use "../../config/globals.scss";
+
+$container-width: calc(var(--screen-width) * 0.15);
+$container-height: calc(var(--screen-height) * 0.15);
+
+.window-switcher {
+    background: red;
+}
+
+.grid {
+    transition: 0.3s ease;
+}
+
+.window-preview {
+    min-width: $container-width;
+    min-height: $container-height;
+    border: 2px solid transparent;
+}
+
+.window-preview > .title {
+    font-size: calc($container-height * 0.1);
+}
+.window-selected {
+    border: 2px solid blue;
+}
+
+.thumbnail {
+    min-width: $container-width;
+    min-height: calc($container-height * 0.8);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

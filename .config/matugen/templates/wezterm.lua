@@ -6,7 +6,7 @@ config.automatically_reload_config = true
 config.font = wezterm.font("CaskaydiaMonoNerdFont")
 config.font_size = 10
 config.enable_tab_bar = false
-
+config.window_close_confirmation = 'NeverPrompt'
 config.colors = {
   background = '{{colors.background.default.hex}}',
   foreground = '{{colors.on_background.default.hex}}',

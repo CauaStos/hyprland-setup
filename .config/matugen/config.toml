@@ -56,9 +56,14 @@ output_path = '~/.wezterm.lua'
 input_path = '~/.config/matugen/templates/macchina.toml'
 output_path = '~/.config/macchina/themes/Material.toml'
 
-[templates.ags]
+[templates.ags_css]
 input_path = '~/.config/matugen/templates/ags.css'
-output_path = '~/.config/ags/colors.css'
+output_path = '~/.config/ags/config/colors.css'
+
+[templates.ags_json]
+input_path = '~/.config/matugen/templates/ags.json'
+output_path = '~/.config/ags/config/colors.json'
+
 
 [templates.cornercolor]
 input_path = '~/.config/matugen/templates/agscorner.txt'
