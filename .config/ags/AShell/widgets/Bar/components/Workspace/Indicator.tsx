@@ -1,5 +1,5 @@
 import { bind } from "astal";
-import { hyprland_session } from "../../../../globals";
+import { hyprland_session } from "../../../utilities";
 import { Gtk } from "astal/gtk4";
 
 interface Props {

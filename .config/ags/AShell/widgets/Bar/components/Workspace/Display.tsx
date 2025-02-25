@@ -1,6 +1,6 @@
 import { Variable } from "astal";
 import AstalHyprland from "gi://AstalHyprland?version=0.1";
-import { hyprland_session, screen_width } from "../../../../globals";
+import { hyprland_session, screen_width } from "../../../utilities";
 import { Gtk } from "astal/gtk4";
 import Indicator from "./Indicator";
 

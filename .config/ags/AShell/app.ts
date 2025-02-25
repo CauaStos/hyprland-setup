@@ -1,13 +1,14 @@
 import { App } from "astal/gtk4";
 import style from "./style.scss";
 import Bar from "./widgets/Bar/Bar";
-import Corners from "./widgets/Bar/components/Corners/Corners";
-import { apply_resolution_to_css } from "./globals";
+import { setup_css } from "./widgets/utilities";
 import Switcher from "./widgets/Switcher/Switcher";
 import {
   request_cycle_next,
   request_switch_window,
 } from "./widgets/Switcher/switcher_daemon";
+import Corners from "./widgets/Corners/Corners";
+import daemon_start from "./widgets/color_daemon";
 
 App.start({
   instanceName: "AShell",
@@ -25,9 +26,11 @@ App.start({
   },
   css: style,
   main() {
+    setup_css();
+    daemon_start();
+
     Bar(0);
-    App.get_monitors().map(Corners);
     Switcher();
-    apply_resolution_to_css();
+    App.get_monitors().map(Corners);
   },
 });

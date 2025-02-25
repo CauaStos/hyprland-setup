@@ -1,11 +1,9 @@
 @use "../../config/globals.scss" as *;
-
 $bar_height: calc($screen-height * 0.06);
 $container_size: calc($bar_height * 0.5);
 $inner_container_size: calc($container_size * 0.75);
 
 .Bar {
-    background: var(--background);
     padding: 0 calc($bar_height * 0.2);
     min-height: $bar_height;
 
@@ -34,21 +32,17 @@ $inner_container_size: calc($container_size * 0.75);
     }
 
     .workspace-display {
-        background-color: #e8c4c4;
         border-radius: 2000px;
 
         .workspace-inactive {
             border-radius: 100px;
-            background: #ff8e8e;
+            background: var(--primary_fixed_dim);
             transition: min-width 0.3s ease;
-            color: black;
         }
 
         .workspace-active {
             border-radius: 100px;
-            background: #cf6565;
             min-width: calc($screen-width * 0.04);
-            color: #cf6565;
         }
     }
 }

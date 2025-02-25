@@ -1,7 +1,7 @@
 import { exec, execAsync, Gio, GLib, interval, Variable } from "astal";
 import AstalHyprland from "gi://AstalHyprland?version=0.1";
 import { App, Gdk } from "astal/gtk4";
-import { hyprland_session } from "./globals";
+import { hyprland_session } from "../utilities";
 
 class SwitcherPosition extends Variable<number> {
   constructor() {

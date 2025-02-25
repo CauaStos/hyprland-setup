@@ -1,6 +1,6 @@
 import { Gtk } from "astal/gtk4";
 import Display from "./Display";
-import { hyprland_session } from "../../../../globals";
+import { hyprland_session } from "../../../utilities";
 import { bind, exec } from "astal";
 
 export default () => {

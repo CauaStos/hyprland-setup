@@ -3,6 +3,7 @@ command = "echo"
 set = false
 
 
+
 [templates.gtk3]
 input_path = '~/.config/matugen/templates/gtk3.css'
 output_path = '~/.local/share/themes/Material/gtk-3.0/gtk.css'
@@ -17,7 +18,6 @@ post_hook = "gsettings set org.gnome.desktop.interface gtk-theme ''; gsettings s
 input_path = '~/.config/matugen/templates/pywalfox-colors.json'
 output_path = '~/.cache/wal/colors.json'
 post_hook = 'pywalfox update'
-
 #0 - background
 #10 - accent primary
 #13 - accent secondary
@@ -44,10 +44,6 @@ output_path = '~/.config/spicetify/Themes/text/color.ini'
 input_path = '~/.config/matugen/templates/icon_color_input.txt'
 output_path = '~/Documents/Scripts/colors/icon_color_input.txt'
 
-[templates.fuzzel]
-input_path = '~/.config/matugen/templates/fuzzel.ini'
-output_path = '~/.config/fuzzel/fuzzel.ini'
-
 [templates.wezterm]
 input_path = '~/.config/matugen/templates/wezterm.lua'
 output_path = '~/.wezterm.lua'
@@ -56,15 +52,10 @@ output_path = '~/.wezterm.lua'
 input_path = '~/.config/matugen/templates/macchina.toml'
 output_path = '~/.config/macchina/themes/Material.toml'
 
-[templates.ags_css]
+[templates.ags_color_css]
 input_path = '~/.config/matugen/templates/ags.css'
-output_path = '~/.config/ags/config/colors.css'
+output_path = '~/.config/ags/AShell/config/colors.css'
 
-[templates.ags_json]
+[templates.ags_color_json]
 input_path = '~/.config/matugen/templates/ags.json'
-output_path = '~/.config/ags/config/colors.json'
-
-
-[templates.cornercolor]
-input_path = '~/.config/matugen/templates/agscorner.txt'
-output_path = '~/.config/ags/Bar/widget/components/Corners/color.txt'
+output_path = '~/.config/ags/AShell/config/colors.json'

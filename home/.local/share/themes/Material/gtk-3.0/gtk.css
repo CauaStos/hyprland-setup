@@ -45,56 +45,56 @@
 @define-color dark_5 #000000;
 
 
-@define-color accent_color #ffb3b3;
-@define-color accent_fg_color #561d21;
-@define-color accent_bg_color #733336;
+@define-color accent_color #ffb0d0;
+@define-color accent_fg_color #531d38;
+@define-color accent_bg_color #6e334e;
 @define-color destructive_color #ffb4ab;
 @define-color destructive_bg_color #690005;
 @define-color destructive_fg_color #ffdad6;
-@define-color success_color #e6bdbc;
-@define-color success_bg_color #5d3f3f;
-@define-color success_fg_color #f0dede;
-@define-color warning_color #e5c18d;
-@define-color warning_bg_color #5b421a;
-@define-color warning_fg_color #f0dede;
+@define-color success_color #e1bdc9;
+@define-color success_bg_color #593f4a;
+@define-color success_fg_color #eedfe2;
+@define-color warning_color #f1bb97;
+@define-color warning_bg_color #633e23;
+@define-color warning_fg_color #eedfe2;
 @define-color error_color #ffb4ab;
 @define-color error_bg_color #690005;
 @define-color error_fg_color #ffdad6;
-@define-color window_bg_color #1a1111;
-@define-color window_fg_color #f0dede;
-@define-color view_bg_color #1a1111;
-@define-color view_fg_color #f0dede;
-@define-color headerbar_bg_color #1a1111;
-@define-color headerbar_fg_color #f0dede;
-@define-color headerbar_border_color #a08c8c;
-@define-color headerbar_backdrop_color #322827;
-@define-color headerbar_shade_color #3d3232;
-@define-color sidebar_bg_color #1a1111;
-@define-color sidebar_fg_color #f0dede;
-@define-color sidebar_backdrop_color #322827;
-@define-color card_bg_color #1a1111;
-@define-color card_fg_color #f0dede;
-@define-color card_shade_color #3d3232;
+@define-color window_bg_color #191114;
+@define-color window_fg_color #eedfe2;
+@define-color view_bg_color #191114;
+@define-color view_fg_color #eedfe2;
+@define-color headerbar_bg_color #191114;
+@define-color headerbar_fg_color #eedfe2;
+@define-color headerbar_border_color #9d8c91;
+@define-color headerbar_backdrop_color #30282b;
+@define-color headerbar_shade_color #3c3235;
+@define-color sidebar_bg_color #191114;
+@define-color sidebar_fg_color #eedfe2;
+@define-color sidebar_backdrop_color #30282b;
+@define-color card_bg_color #191114;
+@define-color card_fg_color #eedfe2;
+@define-color card_shade_color #3c3235;
 @define-color thumbnail_bg_color #ff0000;
 @define-color thumbnail_fg_color #ff0000;
-@define-color dialog_bg_color #271d1d;
-@define-color dialog_fg_color #f0dede;
-@define-color popover_bg_color #271d1d;
-@define-color popover_fg_color #f0dede;
+@define-color dialog_bg_color #261d20;
+@define-color dialog_fg_color #eedfe2;
+@define-color popover_bg_color #261d20;
+@define-color popover_fg_color #eedfe2;
 @define-color shade_color rgba(0, 0, 0, 0.36);
-@define-color scrollbar_outline_color #ffb3b3;
+@define-color scrollbar_outline_color #ffb0d0;
 
 
 .navigation-sidebar {
-    background-color: #271d1d;
+    background-color: #261d20;
 }
 
 switch:checked {
-    background-color: #ffb3b3;
+    background-color: #ffb0d0;
 }
 
 switch:checked slider {
-    background-color: #561d21;
+    background-color: #531d38;
 }
 
 

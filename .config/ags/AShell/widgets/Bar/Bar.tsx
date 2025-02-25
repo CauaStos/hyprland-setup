@@ -10,7 +10,7 @@ export default function Bar(monitor: number) {
   return (
     <window
       visible
-      cssClasses={["Bar"]}
+      cssClasses={["bg-surface", "Bar"]}
       monitor={monitor}
       exclusivity={Astal.Exclusivity.EXCLUSIVE}
       anchor={TOP | LEFT | RIGHT}
