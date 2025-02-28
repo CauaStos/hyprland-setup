@@ -10,17 +10,16 @@
 #--mkpath: Creates folders if there are none
 #--delete: Will delete files in the directory if they are not in the source. (e.g: if a wallpaper is deleted on ./Documents/Wallpapers and rsync with --delete, it will also remove the wallpaper on ./dotfiles/Documents/Wallpapers)
 
-RSYNC_OPTS="-av --checksum --mkpath --delete"
-
+RSYNC_OPTS="-av --checksum --mkpath"
 
 
 #cd into the dotfiles directory so git status --porcelain doesnt return nothing
 cd ~/Documents/dotfiles/ || exit
-
+rm -rf ./.config ./home ./Documents
 
 
 #Document Folders Copy
-include=(--include 'Hyprlock Assets/' --include 'Scripts/' --include 'Scripts/colors/' --include 'Wallpapers/***' --exclude '*/')
+include=(--include 'Hyprlock Assets/' --include 'Scripts/' --include 'Scripts/colors/' --include 'Wallpapers/' --exclude '*/')
 
 echo "Copying 'Documents' folders..."
 
