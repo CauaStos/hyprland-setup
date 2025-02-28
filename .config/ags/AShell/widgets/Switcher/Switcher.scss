@@ -1,0 +1,23 @@
+@use "../../config/globals.scss" as *;
+
+$container-width: calc(var(--screen-width) * 0.125);
+$container-height: calc(var(--screen-height) * 0.125);
+$corner-radius: calc($container-width * 0.05);
+
+.window-switcher {
+    border-radius: calc($corner-radius * 1.5);
+    .grid {
+        transition: 0.3s ease;
+
+        .window-preview {
+            border-radius: calc($corner-radius);
+            padding: calc($container-height * 0.115) 0;
+            margin: calc($container-height * 0.05);
+
+            image {
+                min-width: $container-width;
+                -gtk-icon-size: calc($container-height * 0.6);
+            }
+        }
+    }
+}

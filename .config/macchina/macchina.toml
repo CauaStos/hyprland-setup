@@ -1,0 +1,45 @@
+long_uptime = true
+long_shell = false
+long_kernel = false
+current_shell = true
+physical_cores = true
+
+theme = "Material"
+
+show = [
+    "Host",
+    "Distribution",
+    "Kernel",
+    "WindowManager",
+    "Packages",
+    "Terminal",
+    "Shell",
+    "Uptime",
+    "Processor",
+    "Memory",
+    "GPU",
+]
+# Displays only the specified readouts.
+# Accepted values (case-sensitive):
+#   - Host
+#   - Machine
+#   - Kernel
+#   - Distribution
+#   - OperatingSystem
+#   - DesktopEnvironment
+#   - WindowManager
+#   - Resolution
+#   - Backlight
+#   - Packages
+#   - LocalIp
+#   - Terminal
+#   - Shell
+#   - Uptime
+#   - Processor
+#   - ProcessorLoad
+#   - Memory
+#   - Battery
+#   - GPU
+#   - DiskSpace
+# Example:
+#   show = ["Battery", "Memory", ...]

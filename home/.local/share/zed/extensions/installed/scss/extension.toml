@@ -1,0 +1,33 @@
+id = "scss"
+name = "SCSS"
+version = "0.0.4"
+schema_version = 1
+description = "SCSS support"
+repository = "https://github.com/bajrangCoder/zed-scss"
+authors = ["Raunak Raj <bajrangcoders@gmail.com>"]
+themes = []
+languages = ["languages/scss"]
+
+[lib]
+kind = "Rust"
+version = "0.0.6"
+
+[grammars.scss]
+repository = "https://github.com/tree-sitter-grammars/tree-sitter-scss"
+rev = "9ab738d22bb248771d42e8678d1a307d14990df1"
+
+[language_servers.scss-lsp]
+language = "SCSS"
+languages = []
+
+[language_servers.scss-lsp.language_ids]
+
+[language_servers.some-sass-lsp]
+language = "SCSS"
+languages = []
+
+[language_servers.some-sass-lsp.language_ids]
+
+[slash_commands]
+
+[indexed_docs_providers]

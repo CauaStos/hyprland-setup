@@ -1,0 +1,157 @@
+@use "colors.css" as *;
+
+* {
+    all: unset;
+    font-family: "quicksand", serif;
+    font-weight: 600;
+}
+
+:root {
+    --screen-width: 20px;
+    --screen-height: 20px;
+}
+
+$screen-width: var(--screen-width);
+$screen-height: var(--screen-height);
+
+$h1: calc(var(--screen-height) * 0.03);
+$h2: calc(var(--screen-height) * 0.025);
+$h3: calc(var(--screen-height) * 0.0175);
+$h4: calc(var(--screen-height) * 0.015);
+$h5: calc(var(--screen-height) * 0.014);
+
+.h1 {
+    font-size: $h1;
+}
+.h2 {
+    font-size: $h2;
+}
+.h3 {
+    font-size: $h3;
+}
+.h4 {
+    font-size: $h4;
+}
+.h5 {
+    font-size: $h5;
+}
+.background-surface {
+    background: var(--surface);
+    opacity: 0.95;
+}
+
+.text-surface {
+    color: var(--surface);
+}
+
+.background-surface-container {
+    background: var(--surface_container);
+}
+
+.text-surface-container {
+    color: var(--surface_container);
+}
+
+.background-surface-container-highest {
+    background: var(--surface_container_highest);
+}
+
+.text-surface-container-highest {
+    color: var(--surface_container_highest);
+}
+
+.background-on-surface {
+    background: var(--on_surface);
+}
+
+.text-on-surface {
+    color: var(--on_surface);
+}
+
+.background-primary {
+    background: var(--primary);
+}
+
+.text-primary {
+    color: var(--primary);
+}
+
+.background-primary-container {
+    background: var(--primary_container);
+}
+
+.text-primary-container {
+    color: var(--primary_container);
+}
+
+.background-on-primary {
+    background: var(--on_primary);
+}
+
+.text-on-primary {
+    color: var(--on_primary);
+}
+
+.background-inverse-primary {
+    background: var(--inverse_primary);
+}
+
+.text-inverse-primary {
+    color: var(--inverse_primary);
+}
+
+.background-secondary {
+    background: var(--secondary);
+}
+
+.text-secondary {
+    color: var(--secondary);
+}
+
+.background-on-secondary {
+    background: var(--on_secondary);
+}
+
+.text-on-secondary {
+    color: var(--on_secondary);
+}
+
+.background-tertiary {
+    background: var(--tertiary);
+}
+.text-tertiary {
+    color: var(--tertiary);
+}
+
+.background-on-tertiary {
+    background: var(--on_tertiary);
+}
+
+.text-on-tertiary {
+    color: var(--on_tertiary);
+}
+
+.padding-small {
+    padding: calc($screen-height * 0.01);
+}
+
+.padding-large {
+    padding: calc($screen-height * 0.02);
+}
+
+.round {
+    border-radius: 20000px;
+}
+
+.border-primary {
+    border-color: var(--primary);
+}
+
+.border-surface-container-highest {
+    border-color: var(--surface_container_highest);
+}
+
+.border {
+    border-width: calc($screen-height * 0.0025);
+    border-style: solid;
+}
