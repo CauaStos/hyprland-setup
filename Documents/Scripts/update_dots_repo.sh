@@ -39,7 +39,7 @@ rsync $RSYNC_OPTS ~/.local/share/themes/Material ~/Documents/dotfiles/home/.loca
 
 echo "Copying '.config' folders..."
 
-include=(--include 'ags/AShell/'  --include 'hypr/' --include 'macchina/' --include 'macchina/themes/' --include 'qt5ct/' --include 'qt5ct/colors/' --include 'qt6ct/' --include 'qt6ct/colors/' --include 'zed/' --include 'matugen/' --include 'matugen/templates/' --exclude '*/')
+include=(--include 'ags/' --include 'hypr/' --include 'macchina/' --include 'macchina/themes/' --include 'qt5ct/' --include 'qt5ct/colors/' --include 'qt6ct/' --include 'qt6ct/colors/' --include 'zed/' --include 'matugen/' --include 'matugen/templates/' --exclude '*/')
 
 rsync $RSYNC_OPTS "${include[@]}" ~/.config/ ~/Documents/dotfiles/.config
 rm -f ~/Documents/dotfiles/.config/*
