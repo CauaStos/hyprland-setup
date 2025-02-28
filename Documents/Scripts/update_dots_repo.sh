@@ -8,6 +8,7 @@
 #--include: Specifies each folder or file to include from the specified path.
 #--checksum: Checks for minor changes in files instead of timestamps. (Specifically, checks for file size instead of timestamps)
 #--mkpath: Creates folders if there are none
+#--filter: Filters files, preferred over --include and --exclude.
 
 RSYNC_OPTS="-av --checksum --mkpath"
 
@@ -16,39 +17,25 @@ RSYNC_OPTS="-av --checksum --mkpath"
 cd ~/Documents/dotfiles/ || exit
 rm -rf ./.config ./home ./Documents
 
+echo "# Copying home files and folders..."
+
+filter=(--filter '+ .zshrc' --filter '+ .local/' --filter '+ .local/share/' --filter '+ .local/share/themes/***' --filter '+ .local/share/zed/' --filter '+ .local/share/zed/extensions/***' --filter '- *')
+rsync $RSYNC_OPTS "${filter[@]}" ~/ ~/Documents/dotfiles/home/
 
 #Document Folders Copy
-include=(--include 'Hyprlock Assets/' --include 'Scripts/' --include 'Scripts/colors/' --include 'Wallpapers/' --exclude '*/')
+echo "## Copying 'Documents' folders..."
 
-echo "Copying 'Documents' folders..."
+filter=(--filter '+ Hyprlock Assets/***' --filter '+ Scripts/***' --filter '+ Scripts/colors/***' --filter '+ Wallpapers/***' --filter '- *')
 
-rsync -av --checksum --mkpath "${include[@]}" ~/Documents/ ~/Documents/dotfiles/Documents/
-
-
-#Specific folders and files copy
-echo "Copying specific folders and files..."
-
-rsync $RSYNC_OPTS ~/.zshrc ~/Documents/dotfiles/home/
-
-rsync $RSYNC_OPTS ~/.local/share/zed/extensions/ ~/Documents/dotfiles/home/.local/share/zed/extensions/
-
-rsync $RSYNC_OPTS ~/.local/share/themes/Material ~/Documents/dotfiles/home/.local/share/themes/
-
+rsync -av --checksum --mkpath "${filter[@]}" ~/Documents/ ~/Documents/dotfiles/Documents/
 
 #.config Folders Copy
 
-echo "Copying '.config' folders..."
+echo "## Copying '.config' files and folders..."
 
-include=(--include 'ags/AShell' --include 'hypr/' --include 'macchina/' --include 'macchina/themes/' --include 'qt5ct/' --include 'qt5ct/colors/' --include 'qt6ct/' --include 'qt6ct/colors/' --include 'zed/' --include 'matugen/' --include 'matugen/templates/' --exclude '*/')
+filter=(--filter '+ ags/***' --filter '+ hypr/***' --filter '+ macchina/***' --filter '+ qt5ct/***' --filter '+ qt6ct/***' --filter '+ zed/***' --filter '+ matugen/***' --filter '+ electron-flags.conf' --filter '- *')
 
-rsync $RSYNC_OPTS "${include[@]}" ~/.config/ ~/Documents/dotfiles/.config
-rm -f ~/Documents/dotfiles/.config/*
-rm -f ~/Documents/dotfiles/.config/.*
-
-
-echo "Copying '.config' files"
-
-cp ~/.config/electron-flags.conf  ~/Documents/dotfiles/.config/
+rsync $RSYNC_OPTS "${filter[@]}" ~/.config/ ~/Documents/dotfiles/.config
 
 #echo "Copying SDDM theme..."
 
