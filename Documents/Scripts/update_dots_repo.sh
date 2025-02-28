@@ -12,7 +12,6 @@
 
 RSYNC_OPTS="-av --checksum --mkpath"
 
-
 #cd into the dotfiles directory so git status --porcelain doesnt return nothing
 cd ~/Documents/dotfiles/ || exit
 rm -rf ./.config ./home ./Documents
