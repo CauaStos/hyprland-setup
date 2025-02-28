@@ -8,10 +8,15 @@
 #--include: Specifies each folder or file to include from the specified path.
 #--checksum: Checks for minor changes in files instead of timestamps. (Specifically, checks for file size instead of timestamps)
 #--mkpath: Creates folders if there are none
+#--delete: Will delete files in the directory if they are not in the source. (e.g: if a wallpaper is deleted on ./Documents/Wallpapers and rsync with --delete, it will also remove the wallpaper on ./dotfiles/Documents/Wallpapers)
+
+RSYNC_OPTS="-av --checksum --mkpath --delete"
+
 
 
 #cd into the dotfiles directory so git status --porcelain doesnt return nothing
 cd ~/Documents/dotfiles/ || exit
+
 
 
 #Document Folders Copy
@@ -25,13 +30,13 @@ rsync -av --checksum --mkpath "${include[@]}" ~/Documents/ ~/Documents/dotfiles/
 #Specific folders and files copy
 echo "Copying specific folders and files..."
 
-rsync -av --checksum --mkpath ~/.zshrc ~/Documents/dotfiles/home/
+rsync $RSYNC_OPTS ~/.zshrc ~/Documents/dotfiles/home/
 
-rsync -av --checksum --mkpath ~/.local/share/zed/extensions/ ~/Documents/dotfiles/home/.local/share/zed/extensions/
+rsync $RSYNC_OPTS ~/.local/share/zed/extensions/ ~/Documents/dotfiles/home/.local/share/zed/extensions/
 
-rsync -av --checksum --mkpath ~/.local/share/themes/Material ~/Documents/dotfiles/home/.local/share/themes/
+rsync $RSYNC_OPTS ~/.local/share/themes/Material ~/Documents/dotfiles/home/.local/share/themes/
 
-rsync -av --checksum --mkpath ~/.config/ags ~/Documents/dotfiles/.config
+rsync $RSYNC_OPTS ~/.config/ags ~/Documents/dotfiles/.config
 
 
 #.config Folders Copy
@@ -40,7 +45,7 @@ echo "Copying '.config' folders..."
 
 include=(--include 'hypr/' --include 'macchina/' --include 'macchina/themes/' --include 'qt5ct/' --include 'qt5ct/colors/' --include 'qt6ct/' --include 'qt6ct/colors/' --include 'zed/' --include 'matugen/' --include 'matugen/templates/' --exclude '*/')
 
-rsync -av --checksum --mkpath "${include[@]}" ~/.config/ ~/Documents/dotfiles/.config
+rsync $RSYNC_OPTS "${include[@]}" ~/.config/ ~/Documents/dotfiles/.config
 
 rm -f ~/Documents/dotfiles/.config/*
 rm -f ~/Documents/dotfiles/.config/.*
