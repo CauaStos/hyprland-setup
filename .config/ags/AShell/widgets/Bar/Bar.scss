@@ -1,48 +1,62 @@
 @use "../../config/globals.scss" as *;
+$bar_width: $screen-width;
+
 $bar_height: calc($screen-height * 0.06);
-$container_size: calc($bar_height * 0.5);
-$inner_container_size: calc($container_size * 0.75);
+
+$container_width: calc($bar_height * 0.45);
+$container_height: calc($bar_height * 0.45);
+$container_padding: calc($bar_height * 0.1);
+$container_margin: calc($bar_height * 0.2);
 
 .Bar {
-    padding: 0 calc($bar_height * 0.2);
     min-height: $bar_height;
 
+    .transition-smooth {
+        transition: 1.2s ease-in-out;
+    }
+
+    .small {
+        min-width: calc($container_width / 3);
+        min-height: calc($container_height / 3);
+    }
+
+    .big {
+        min-width: calc($container_width * 5);
+        min-height: calc($container_height * 5);
+    }
+
     .container {
-        padding: calc($container_size * 0.1);
-        min-width: calc($container_size * 0.9);
-        min-height: calc($container_size * 0.9);
-    }
-    .container-margin {
-        margin: 0 calc($bar_height * 0.2);
-    }
-    .container-padding {
-        padding: 0 calc($bar_height * 0.2);
+        min-width: $container_width;
+        min-height: $container_height;
+        padding: $container_padding;
+        margin: 0 $container_margin;
     }
 
-    .inner-container {
-        min-width: $inner_container_size;
-        min-height: $inner_container_size;
-    }
-    .inner-container-margin {
-        margin: 0 calc($container_size * 0.2);
-    }
-
-    .inner-container-padding {
-        padding: 0 calc($container_size * 0.2);
+    .container-extra-horizontal-padding {
+        $padding: calc($container_width / 1.5);
+        padding-left: $padding;
+        padding-right: $padding;
     }
 
     .workspace-display {
-        border-radius: 2000px;
+        $workspace_size: calc($container_height * 0.9);
+        $workspace_inactive_size: $workspace_size;
+        $workspace_active_size: calc($workspace_size * 3);
 
+        .workspace {
+            transition:
+                0.25s ease,
+                background 0.15s ease-out;
+            margin: 0 calc($container_margin * 0.25);
+        }
         .workspace-inactive {
-            border-radius: 100px;
-            background: var(--primary_fixed_dim);
-            transition: min-width 0.3s ease;
+            min-width: $workspace_inactive_size;
+            min-height: $workspace_size;
         }
 
         .workspace-active {
-            border-radius: 100px;
-            min-width: calc($screen-width * 0.04);
+            min-width: $workspace_active_size;
+            min-height: $workspace_size;
         }
     }
 }

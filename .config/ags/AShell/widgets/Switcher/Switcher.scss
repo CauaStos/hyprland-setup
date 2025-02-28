@@ -1,34 +1,23 @@
 @use "../../config/globals.scss" as *;
 
-$container-width: calc(var(--screen-width) * 0.15);
-$container-height: calc(var(--screen-height) * 0.15);
+$container-width: calc(var(--screen-width) * 0.125);
+$container-height: calc(var(--screen-height) * 0.125);
+$corner-radius: calc($container-width * 0.05);
 
 .window-switcher {
-    background: var(--error);
-}
+    border-radius: calc($corner-radius * 1.5);
+    .grid {
+        transition: 0.3s ease;
 
-.grid {
-    transition: 0.3s ease;
-}
+        .window-preview {
+            border-radius: calc($corner-radius);
+            padding: calc($container-height * 0.115) 0;
+            margin: calc($container-height * 0.05);
 
-.window-preview {
-    min-width: $container-width;
-    min-height: $container-height;
-    border: 2px solid transparent;
-}
-
-.window-preview > .title {
-    font-size: calc($container-height * 0.1);
-}
-
-.window-selected {
-    border: 2px solid var(--inverse_primary);
-}
-
-.thumbnail {
-    min-width: $container-width;
-    min-height: calc($container-height * 0.8);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+            image {
+                min-width: $container-width;
+                -gtk-icon-size: calc($container-height * 0.6);
+            }
+        }
+    }
 }

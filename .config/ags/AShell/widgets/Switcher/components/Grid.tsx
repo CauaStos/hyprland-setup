@@ -10,7 +10,7 @@ import WindowPreview from "./WindowPreview";
 const flow_box = astalify(Gtk.FlowBox);
 export default () =>
   flow_box({
-    cssClasses: ["grid"],
+    cssClasses: ["grid", "padding-small"],
     setup: (self) => {
       self.set_min_children_per_line(3);
       self.set_max_children_per_line(3);

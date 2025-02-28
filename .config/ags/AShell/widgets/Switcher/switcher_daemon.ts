@@ -1,7 +1,7 @@
-import { exec, execAsync, Gio, GLib, interval, Variable } from "astal";
+import { bind, exec, execAsync, Gio, GLib, interval, Variable } from "astal";
 import AstalHyprland from "gi://AstalHyprland?version=0.1";
 import { App, Gdk } from "astal/gtk4";
-import { hyprland_session } from "../utilities";
+import { hyprland_session } from "../globals/utilities";
 
 class SwitcherPosition extends Variable<number> {
   constructor() {
@@ -120,7 +120,6 @@ function get_clients() {
 function load_clients() {
   const clients = get_clients();
   let sorted_clients = sort_clients(clients);
-  print(sorted_clients);
   switcherClients.set(sorted_clients);
 }
 

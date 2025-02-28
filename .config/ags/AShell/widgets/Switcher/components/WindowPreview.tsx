@@ -47,44 +47,41 @@ const FlowBoxChildren = astalify(Gtk.FlowBoxChild);
 export default (props: Props) => {
   const icon_by_windowname = lookup_icon(props.window_name);
   const icon_by_windowclass = lookup_icon(props.window_class);
-
   return (
     <FlowBoxChildren onDestroy={(self) => self.get_parent()?.queue_allocate()}>
-      <Box
+      <box
         cssClasses={switcherPosition((position) =>
           position == props.window_focus_history_id
-            ? ["window-preview", "window-selected"]
-            : ["window-preview"],
+            ? [
+                "window-preview",
+                "background-surface-container",
+                "border",
+                "border-primary",
+              ]
+            : [
+                "window-preview",
+                "background-surface-container",
+                "border",
+                "border-surface-container-highest",
+              ],
         )}
         orientation={1}
       >
-        <label
-          cssClasses={["title"]}
-          label={props.window_name}
-          setup={(self) => {
-            const container_height = focusedMonitor.get().height * 0.15;
-            self.heightRequest = container_height * 0.3;
-            focusedMonitor.subscribe((callback) => {
-              const container_height = focusedMonitor.get().height * 0.15;
-              self.heightRequest = container_height * 0.3;
-            });
-          }}
-        />
         <Image
           cssClasses={["icon"]}
           iconName={
             icon_by_windowclass ? icon_by_windowclass : icon_by_windowname!
           }
-          setup={(self) => {
-            const container_height = focusedMonitor.get().height * 0.15;
-            self.set_pixel_size(container_height * 0.7);
-            focusedMonitor.subscribe((callback) => {
-              const container_height = focusedMonitor.get().height * 0.15;
-              self.set_pixel_size(container_height * 0.8);
-            });
-          }}
         />
-      </Box>
+        <label
+          cssClasses={switcherPosition((position) =>
+            position == props.window_focus_history_id
+              ? ["h5", "text-primary"]
+              : ["h5", "text-on-surface"],
+          )}
+          label={props.window_name}
+        />
+      </box>
     </FlowBoxChildren>
   );
 };

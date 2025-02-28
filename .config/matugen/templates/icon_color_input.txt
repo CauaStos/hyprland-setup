@@ -1,1 +1,1 @@
-{{colors.primary.default.hex_stripped}}
+{{colors.source_color.default.hex_stripped}}

@@ -54,7 +54,7 @@ function draw_corners(
     line_color.red,
     line_color.green,
     line_color.blue,
-    line_color.alpha,
+    0.95,
   );
 
   //Fill and Stroke
@@ -66,6 +66,7 @@ export default function Corners(gdkmonitor: Gdk.Monitor) {
   const DrawingArea = astalify(Gtk.DrawingArea);
   return (
     <window
+      namespace="AShell"
       visible
       gdkmonitor={gdkmonitor}
       exclusivity={Astal.Exclusivity.NORMAL}
@@ -97,8 +98,8 @@ export default function Corners(gdkmonitor: Gdk.Monitor) {
           self.set_draw_func((drawingarea, context) => {
             const radius = 10;
             const width = self.get_allocated_width();
-            let height = self.get_allocated_height();
-            //on first run of the widget, size is 200x200 and it to flashes the screen. Will not render in that case
+            const height = self.get_allocated_height();
+            //on first run of the widget, size is 200x200 and it flashes the screen. Will not render in that case
             if (width != 200 && height != 200)
               draw_corners(width, height, radius, context as giCairo.Context);
           });

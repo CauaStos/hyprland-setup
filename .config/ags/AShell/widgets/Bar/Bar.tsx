@@ -1,8 +1,8 @@
 import { App, Astal, Gtk, Gdk } from "astal/gtk4";
 import { Variable } from "astal";
 import Workspace from "./components/Workspace/Workspace";
-
-const time = Variable("").poll(1000, "date");
+import Date from "./components/Date/Date";
+import Island from "./components/Island/Island";
 
 export default function Bar(monitor: number) {
   const { TOP, LEFT, RIGHT } = Astal.WindowAnchor;
@@ -10,17 +10,24 @@ export default function Bar(monitor: number) {
   return (
     <window
       visible
-      cssClasses={["bg-surface", "Bar"]}
       monitor={monitor}
       exclusivity={Astal.Exclusivity.EXCLUSIVE}
       anchor={TOP | LEFT | RIGHT}
       application={App}
-      //wildcard is resizable={true}
-      //prolly not gonna use it.
+      namespace={"AShell"}
+      defaultWidth={1} //FIXES SHRINKING BUG
+      defaultHeight={1} //FIXEs SHRINKING BUG THANK GOD
+      cssClasses={["background-surface", "Bar"]}
     >
-      <box>
-        <Workspace />
-      </box>
+      <centerbox>
+        <box halign={Gtk.Align.START}>
+          <Workspace />
+        </box>
+        <box>
+          <Date />
+          <Island />
+        </box>
+      </centerbox>
     </window>
   );
 }

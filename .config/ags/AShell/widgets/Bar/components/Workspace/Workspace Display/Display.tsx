@@ -1,6 +1,6 @@
 import { Variable } from "astal";
 import AstalHyprland from "gi://AstalHyprland?version=0.1";
-import { hyprland_session, screen_width } from "../../../utilities";
+import { hyprland_session, screen_width } from "../../../../globals/utilities";
 import { Gtk } from "astal/gtk4";
 import Indicator from "./Indicator";
 
@@ -18,7 +18,12 @@ const workspaceIndicators: Gtk.Widget[] | null[] = [];
 
 export default () => (
   <box
-    cssClasses={["workspace-display", "container", "container-margin"]}
+    cssClasses={[
+      "workspace-display",
+      "container",
+      "background-surface-container",
+      "round",
+    ]}
     valign={Gtk.Align.CENTER}
     setup={(self) => {
       hyprland_session.connect("workspace-added", (_, workspace) => {

@@ -9,9 +9,10 @@ export default () => {
     <window
       application={App}
       title="Switcher"
+      namespace="AShell"
       layer={Astal.Layer.OVERLAY}
       visible={switcherVisible((value) => value)}
-      css_classes={["window-switcher"]}
+      css_classes={["window-switcher", "background-surface"]}
       resizable={false}
       valign={Gtk.Align.CENTER}
       halign={Gtk.Align.CENTER}
