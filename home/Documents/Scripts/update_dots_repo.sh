@@ -14,8 +14,8 @@ RSYNC_OPTS="-a --checksum --mkpath"
 DOTFILES_PATH=~/Documents/dotfiles/
 
 #cd into the dotfiles directory so git status --porcelain doesnt return nothing
-cd ~/Documents/dotfiles/ || exit
-rm -rf ./home
+cd $DOTFILES_PATH || exit
+rm -rf ./.config ./home
 
 echo "# Copying home files and folders..."
 
