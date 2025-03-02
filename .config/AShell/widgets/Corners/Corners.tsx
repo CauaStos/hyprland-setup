@@ -7,7 +7,7 @@ import giCairo from "cairo";
 
 function get_background() {
   const home = GLib.get_home_dir();
-  const colors_json = readFile(`${home}/.config/ags/AShell/config/colors.json`);
+  const colors_json = readFile(`${home}/.config/AShell/config/colors.json`);
   const colors = JSON.parse(colors_json);
   return colors["background"];
 }
@@ -92,7 +92,7 @@ export default function Corners(gdkmonitor: Gdk.Monitor) {
       <DrawingArea
         setup={(self) => {
           const home = GLib.get_home_dir();
-          monitorFile(`${home}/.config/ags/AShell/config/colors.json`, () =>
+          monitorFile(`${home}/.config/AShell/config/colors.json`, () =>
             self.queue_draw(),
           );
           self.set_draw_func((drawingarea, context) => {

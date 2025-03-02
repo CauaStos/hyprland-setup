@@ -11,7 +11,7 @@ export const screen_height = activemonitor.get_height();
 
 const home = GLib.get_home_dir();
 
-const colors_path = `${home}/.config/ags/AShell/config/colors.json`;
+const colors_path = `${home}/.config/AShell/config/colors.json`;
 const colors_json = readFile(colors_path);
 const colors_object = JSON.parse(colors_json);
 export const colorConfig = new Variable<Record<string, string>>(colors_object);
