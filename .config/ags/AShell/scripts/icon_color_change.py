@@ -3,6 +3,7 @@ import subprocess
 import math
 from colormath.color_objects import sRGBColor, LabColor
 from colormath.color_conversions import convert_color
+import json
 
 def split_hex_color(hex_color_raw):
     hex_split = []
@@ -153,9 +154,10 @@ def lab_color_distance(lab1, lab2, kL=1, kC=1, kH=1):
     return delta_E_00
 
 
-color_path = os.path.expanduser("~/Documents/Scripts/colors/icon_color_input.txt")
-cat_command = subprocess.run(["cat", color_path], capture_output=True, text=True)
-hex_color_treated = cat_command.stdout.strip()
+with open('../config/colors.json', 'r') as file:
+    data = json.load(file)
+    hex_color_treated = data["source_color"][1: 7] # removing # from the hex
+
 split_hex_color = split_hex_color(hex_color_treated) # pyright: ignore
 
 input_color_rgb = tuple(hex_to_rgb(color) for color in split_hex_color) ; print("") # Stores the converted input color RGB

@@ -85,7 +85,7 @@
         "editor.active_wrap_guide": "{{colors.surface_container_highest.default.hex}}",
         "editor.document_highlight.bracket_background": "{{colors.tertiary_container.default.hex}}",
         "editor.document_highlight.read_background": "{{colors.tertiary_container.default.hex}}",
-        "editor.document_highlight.write_background": "{{colors.tertiary.default.hex}}",
+        "editor.document_highlight.write_background": "{{colors.tertiary_container.default.hex}}",
         "editor.indent_guide": "{{colors.secondary.default.hex}}",
         "editor.indent_guide_active": "{{colors.primary.default.hex}}",
         "terminal.background": "{{colors.surface.default.hex}}",
@@ -418,27 +418,27 @@
             "font_weight": null
           },
           "keyword.modifier": {
-            "color": "#ff0000",
+            "color": "{{colors.tertiary.default.hex}}",
             "font_style": null,
             "font_weight": null
           },
           "keyword.type": {
-            "color": "#ff0000",
+            "color": "{{colors.tertiary.default.hex}}",
             "font_style": null,
             "font_weight": null
           },
           "keyword.coroutine": {
-            "color": "#ff0000",
+            "color": "{{colors.tertiary.default.hex}}",
             "font_style": null,
             "font_weight": null
           },
           "keyword.function": {
-            "color": "#ff0000",
+            "color": "{{colors.tertiary.default.hex}}",
             "font_style": null,
             "font_weight": null
           },
           "keyword.operator": {
-            "color": "#ff0000",
+            "color": "{{colors.tertiary.default.hex}}",
             "font_style": null,
             "font_weight": null
           },
@@ -473,22 +473,22 @@
             "font_weight": null
           },
           "keyword.conditional.ternary": {
-            "color": "#FF0000",
+            "color": "{{colors.tertiary.default.hex}}",
             "font_style": null,
             "font_weight": null
           },
           "keyword.directive": {
-            "color": "#FF0000",
+            "color": "{{colors.tertiary.default.hex}}",
             "font_style": null,
             "font_weight": null
           },
           "keyword.directive.define": {
-            "color": "#FF0000",
+            "color": "{{colors.tertiary.default.hex}}",
             "font_style": null,
             "font_weight": null
           },
           "keyword.export": {
-            "color": "#FF0000",
+            "color": "{{colors.tertiary.default.hex}}",
             "font_style": null,
             "font_weight": null
           },
@@ -514,7 +514,7 @@
             "font_weight": null
           },
           "punctuation.special.symbol": {
-            "color": "#FF0000",
+            "color": "{{colors.tertiary.default.hex}}",
             "font_style": null,
             "font_weight": null
           },
@@ -634,7 +634,7 @@
             "font_weight": null
           },
           "embedded": {
-            "color": "#FF0000",
+            "color": "{{colors.on_primary_container.default.hex}}",
             "font_style": null,
             "font_weight": null
           },
