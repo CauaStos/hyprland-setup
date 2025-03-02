@@ -44,7 +44,7 @@ rsync $RSYNC_OPTS "${filter[@]}" ~/.config/ $DOTFILES_PATH/.config
 
 echo "Moving install script to project's root"
 
-cp ./Documents/Scripts/install_dots.sh ./
+cp ./home/Documents/Scripts/install_dots.sh ./
 
 
 if [[ $(git status --porcelain) ]]; then
