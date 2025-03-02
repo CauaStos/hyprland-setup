@@ -3,7 +3,6 @@ command = "echo"
 set = false
 
 
-
 [templates.gtk3]
 input_path = '~/.config/matugen/templates/gtk3.css'
 output_path = '~/.local/share/themes/Material/gtk-3.0/gtk.css'
@@ -40,10 +39,6 @@ post_hook = 'hyprctl reload'
 input_path = '~/.config/matugen/templates/spicetify.ini'
 output_path = '~/.config/spicetify/Themes/text/color.ini'
 
-[templates.icon_color]
-input_path = '~/.config/matugen/templates/icon_color_input.txt'
-output_path = '~/Documents/Scripts/colors/icon_color_input.txt'
-
 [templates.wezterm]
 input_path = '~/.config/matugen/templates/wezterm.lua'
 output_path = '~/.wezterm.lua'
@@ -52,10 +47,6 @@ output_path = '~/.wezterm.lua'
 input_path = '~/.config/matugen/templates/macchina.toml'
 output_path = '~/.config/macchina/themes/Material.toml'
 
-[templates.ags_color_css]
-input_path = '~/.config/matugen/templates/ags.css'
-output_path = '~/.config/ags/AShell/config/colors.css'
-
-[templates.ags_color_json]
+[templates.shell_color]
 input_path = '~/.config/matugen/templates/ags.json'
 output_path = '~/.config/ags/AShell/config/colors.json'
