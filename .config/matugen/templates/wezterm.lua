@@ -8,12 +8,12 @@ config.font_size = 10
 config.enable_tab_bar = false
 config.window_close_confirmation = 'NeverPrompt'
 config.colors = {
-  background = '{{colors.background.default.hex}}',
-  foreground = '{{colors.on_background.default.hex}}',
-  cursor_border = '{{colors.background.default.hex}}',
-  cursor_bg = '{{colors.on_background.default.hex}}',
+  background = '{{colors.surface.default.hex}}',
+  foreground = '{{colors.on_surface.default.hex}}',
+  cursor_border = '{{colors.surface.default.hex}}',
+  cursor_bg = '{{colors.on_surface.default.hex}}',
   selection_fg = '{{colors.on_surface.default.hex}}',
-  selection_bg = '{{colors.surface_variant.default.hex}}',
+  selection_bg = '{{colors.on_surface_variant.default.hex}}',
 
   scrollbar_thumb = '{{colors.inverse_surface.default.hex}}',
   split = '{{colors.secondary.default.hex}}',
@@ -21,7 +21,7 @@ config.colors = {
   ansi = {
     '{{colors.surface_variant.default.hex}}',
     '{{colors.inverse_surface.default.hex}}',
-    '{{colors.tertiary.default.hex}}',
+    '{{colors.tertiary.default.hex}}', -- Command highlight
     '{{colors.tertiary.default.hex}}',
     '{{colors.inverse_primary.default.hex}}',
     '{{colors.secondary.default.hex}}',
@@ -29,13 +29,13 @@ config.colors = {
     '{{colors.on_surface.default.hex}}',
   },
   brights = {
-      '{{colors.surface_variant.default.hex}}',
-      '{{colors.inverse_surface.default.hex}}',
+      '{{colors.outline.default.hex}}', -- autocomplete or comment
+      '{{colors.on_surface_variant.default.hex}}',-- wrong command
       '{{colors.tertiary.default.hex}}',
       '{{colors.tertiary.default.hex}}',
       '{{colors.inverse_primary.default.hex}}',
       '{{colors.secondary.default.hex}}',
-      '{{colors.primary.default.hex}}',
+      '{{colors.primary.default.hex}}', --Path on starship
       '{{colors.on_surface.default.hex}}',
   },
 }

@@ -92,6 +92,7 @@ base_colors = {
 }
 
 wallpaper_path = os.path.expanduser(sys.argv[1])
+color_theme = sys.argv[2]
 color_thief = ColorThief(wallpaper_path)
 # get the dominant color
 input_colors = color_thief.get_palette(2, 100)
@@ -127,12 +128,11 @@ for color in base_colors:
 
 if color_distances["black0"] < 15 and color_distances["white1"] < 15:
     print("Monochrome wallpaper detected! Applying 'scheme-fidelity'")
-    subprocess.run(["matugen","-t", "scheme-fidelity", "color", "rgb", f"rgb{input_colors[0]}"], check=True)
-
-
+    subprocess.run(["matugen","-t", "scheme-fidelity", "color", "rgb", f"rgb{input_colors[0]}", "-m", color_theme], check=True)
 else:
     print("Colorful wallpaper detected! Applying 'tonal-spot'")
-    subprocess.run(["matugen", "image", wallpaper_path], check=True)
+    subprocess.run(["matugen", "image", wallpaper_path, "-m", color_theme], check=True)
+    print(["matugen", "image", wallpaper_path, "-m", color_theme])
 
 #Apply changes (icons + wallpaper transition)
 subprocess.run(["python", "./icon_color_change.py"], check=True)

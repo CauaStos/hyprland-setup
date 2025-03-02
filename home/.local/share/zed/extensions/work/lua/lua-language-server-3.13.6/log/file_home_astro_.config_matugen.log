@@ -1,10 +1,10 @@
-[02:57:09.983][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/main.lua:68]: Lua Lsp startup, root: 	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6
-[02:57:09.984][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/main.lua:69]: ROOT:	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6
-[02:57:09.984][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/main.lua:70]: LOGPATH:	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/log
-[02:57:09.984][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/main.lua:71]: METAPATH:	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta
-[02:57:09.984][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/main.lua:72]: VERSION:	3.13.6
-[02:57:10.011][info] [#0:script/proto/proto.lua:260]: Listen Mode: stdio
-[02:57:10.011][info] [#0:script/service/service.lua:145]: 
+[00:39:54.207][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/main.lua:68]: Lua Lsp startup, root: 	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6
+[00:39:54.208][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/main.lua:69]: ROOT:	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6
+[00:39:54.208][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/main.lua:70]: LOGPATH:	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/log
+[00:39:54.208][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/main.lua:71]: METAPATH:	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta
+[00:39:54.208][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/main.lua:72]: VERSION:	3.13.6
+[00:39:54.261][info] [#0:script/proto/proto.lua:260]: Listen Mode: stdio
+[00:39:54.261][info] [#0:script/service/service.lua:145]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
         Total: 2.258 MB
@@ -26,7 +26,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[02:57:10.116][info] [#0:script/client.lua:657]: Client init	{
+[00:39:54.368][info] [#0:script/client.lua:657]: Client init	{
   capabilities = {
     experimental = {
       localDocs = true,
@@ -136,7 +136,7 @@
   },
   clientInfo = {
     name = "Zed",
-    version = "0.174.6"
+    version = "0.174.8"
   },
   rootUri = "file:///home/astro/.config/matugen",
   workspaceFolders = { {
@@ -144,96 +144,1816 @@
       uri = "file:///home/astro/.config/matugen"
     } }
 }
-[02:57:10.117][info] [#0:script/language.lua:137]: VSC language: nil
-[02:57:10.117][info] [#0:script/language.lua:138]: LS  language: en-us
-[02:57:10.117][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/astro/.config/matugen
-[02:57:10.117][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/log/file_home_astro_.config_matugen.log
-[02:57:10.117][info] [#0:script/workspace/workspace.lua:48]: Workspace create: 	file:///home/astro/.config/matugen
-[02:57:10.419][warn] [#0:script/config/loader.lua:116]: No config?	{}
-[02:57:10.419][warn] [#0:script/config/loader.lua:116]: No config?	{}
-[02:57:10.520][warn] [#0:script/config/loader.lua:116]: No config?	{}
-[02:57:10.520][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
-[02:57:10.520][info] [#0:script/provider/provider.lua:66]: nil
-[02:57:10.520][warn] [#0:script/config/loader.lua:116]: No config?	{}
-[02:57:10.520][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
-[02:57:10.520][info] [#0:script/provider/provider.lua:66]: nil
-[02:57:10.729][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/astro/.config/matugen
-[02:57:10.742][info] [#0:script/library.lua:212]: Init builtin library at:	nil
-[02:57:10.848][info] [#0:script/workspace/workspace.lua:324]: Preload start:	file:///home/astro/.config/matugen
-[02:57:10.849][info] [#0:script/workspace/workspace.lua:330]: Scan files at:	file:///home/astro/.config/matugen
-[02:57:10.849][info] [#0:script/workspace/workspace.lua:324]: Preload start:	<fallback>
-[02:57:10.852][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/builtin.lua
-[02:57:10.852][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/table.lua
-[02:57:10.853][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/debug.lua
-[02:57:10.853][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/package.lua
-[02:57:10.853][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/os.lua
-[02:57:10.853][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/io.lua
-[02:57:10.853][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/basic.lua
-[02:57:10.854][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/math.lua
-[02:57:10.854][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/string.lua
-[02:57:10.854][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/utf8.lua
-[02:57:10.854][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
-[02:57:10.855][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/builtin.lua
-[02:57:10.855][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/table.lua
-[02:57:10.855][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/debug.lua
-[02:57:10.855][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/package.lua
-[02:57:10.855][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/os.lua
-[02:57:10.855][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/io.lua
-[02:57:10.856][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/basic.lua
-[02:57:10.856][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/math.lua
-[02:57:10.856][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/string.lua
-[02:57:10.856][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/utf8.lua
-[02:57:10.856][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
-[02:57:10.956][info] [#0:script/workspace/workspace.lua:379]: Found 11 files at:	<fallback>
-[02:57:10.956][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	<fallback>
-[02:57:10.956][info] [#0:script/workspace/workspace.lua:379]: Found 12 files at:	file:///home/astro/.config/matugen
-[02:57:10.956][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	file:///home/astro/.config/matugen
-[02:57:10.957][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/coroutine.lua , size = 2.590 KB
-[02:57:10.959][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
-[02:57:10.959][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
-[02:57:10.959][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/utf8.lua , size = 2.386 KB
-[02:57:10.960][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/utf8.lua
-[02:57:10.960][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/utf8.lua
-[02:57:10.960][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/string.lua , size = 6.327 KB
-[02:57:10.963][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/string.lua
-[02:57:10.963][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/string.lua
-[02:57:10.964][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/math.lua , size = 8.509 KB
-[02:57:10.967][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/math.lua
-[02:57:10.968][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/math.lua
-[02:57:10.968][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/basic.lua , size = 15.841 KB
-[02:57:10.974][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/basic.lua
-[02:57:10.974][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/basic.lua
-[02:57:10.974][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/io.lua , size = 6.364 KB
-[02:57:10.976][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/io.lua
-[02:57:10.976][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/io.lua
-[02:57:10.976][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/os.lua , size = 5.600 KB
-[02:57:10.978][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/os.lua
-[02:57:10.978][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/os.lua
-[02:57:10.978][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/os.lua
-[02:57:10.978][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/package.lua , size = 2.944 KB
-[02:57:10.980][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/package.lua
-[02:57:10.980][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/package.lua
-[02:57:10.980][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/package.lua
-[02:57:10.980][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/debug.lua , size = 7.637 KB
-[02:57:10.984][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/debug.lua
-[02:57:10.984][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/debug.lua
-[02:57:10.984][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/debug.lua
-[02:57:10.984][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/table.lua , size = 4.445 KB
-[02:57:10.986][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/table.lua
-[02:57:10.986][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/table.lua
-[02:57:10.986][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/table.lua
-[02:57:10.987][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/builtin.lua , size = 0.302 KB
-[02:57:10.987][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/builtin.lua
-[02:57:10.987][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/builtin.lua
-[02:57:10.987][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/builtin.lua
-[02:57:10.987][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.032] sec: <fallback>
-[02:57:10.987][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: <fallback>
-[02:57:10.987][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	<fallback>
-[02:57:10.987][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	<fallback>
-[02:57:10.989][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/astro/.config/matugen/templates/wezterm.lua
-[02:57:10.989][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.033] sec: file:///home/astro/.config/matugen
-[02:57:10.989][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: file:///home/astro/.config/matugen
-[02:57:10.989][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	file:///home/astro/.config/matugen
-[02:57:10.989][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	file:///home/astro/.config/matugen
-[02:57:10.991][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
-[02:57:11.018][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.010] sec.
+[00:39:54.369][info] [#0:script/language.lua:137]: VSC language: nil
+[00:39:54.369][info] [#0:script/language.lua:138]: LS  language: en-us
+[00:39:54.369][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/astro/.config/matugen
+[00:39:54.369][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/log/file_home_astro_.config_matugen.log
+[00:39:54.369][info] [#0:script/workspace/workspace.lua:48]: Workspace create: 	file:///home/astro/.config/matugen
+[00:39:54.573][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[00:39:54.573][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[00:39:54.673][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[00:39:54.673][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[00:39:54.673][info] [#0:script/provider/provider.lua:66]: nil
+[00:39:54.673][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[00:39:54.673][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[00:39:54.673][info] [#0:script/provider/provider.lua:66]: nil
+[00:39:54.782][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/astro/.config/matugen
+[00:39:54.794][info] [#0:script/library.lua:212]: Init builtin library at:	nil
+[00:39:54.900][info] [#0:script/workspace/workspace.lua:324]: Preload start:	file:///home/astro/.config/matugen
+[00:39:54.902][info] [#0:script/workspace/workspace.lua:330]: Scan files at:	file:///home/astro/.config/matugen
+[00:39:54.902][info] [#0:script/workspace/workspace.lua:324]: Preload start:	<fallback>
+[00:39:54.907][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[00:39:54.907][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/table.lua
+[00:39:54.907][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[00:39:54.908][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/package.lua
+[00:39:54.908][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/os.lua
+[00:39:54.908][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/io.lua
+[00:39:54.908][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[00:39:54.908][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/math.lua
+[00:39:54.909][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/string.lua
+[00:39:54.909][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[00:39:54.909][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[00:39:54.910][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[00:39:54.910][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/table.lua
+[00:39:54.910][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[00:39:54.910][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/package.lua
+[00:39:54.910][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/os.lua
+[00:39:54.911][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/io.lua
+[00:39:54.911][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[00:39:54.911][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/math.lua
+[00:39:54.911][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/string.lua
+[00:39:54.911][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[00:39:54.911][info] [#0:script/workspace/workspace.lua:353]: Scan library at:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[00:39:55.011][info] [#0:script/workspace/workspace.lua:379]: Found 11 files at:	<fallback>
+[00:39:55.011][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	<fallback>
+[00:39:55.011][info] [#0:script/workspace/workspace.lua:379]: Found 12 files at:	file:///home/astro/.config/matugen
+[00:39:55.011][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	file:///home/astro/.config/matugen
+[00:39:55.012][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/coroutine.lua , size = 2.590 KB
+[00:39:55.014][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[00:39:55.014][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[00:39:55.014][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/utf8.lua , size = 2.386 KB
+[00:39:55.016][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[00:39:55.016][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[00:39:55.016][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/string.lua , size = 6.327 KB
+[00:39:55.020][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/string.lua
+[00:39:55.020][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/string.lua
+[00:39:55.020][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/math.lua , size = 8.509 KB
+[00:39:55.025][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/math.lua
+[00:39:55.025][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/math.lua
+[00:39:55.025][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/basic.lua , size = 15.841 KB
+[00:39:55.031][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[00:39:55.031][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[00:39:55.031][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/io.lua , size = 6.364 KB
+[00:39:55.034][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/io.lua
+[00:39:55.034][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/io.lua
+[00:39:55.034][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/os.lua , size = 5.600 KB
+[00:39:55.036][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/os.lua
+[00:39:55.036][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/os.lua
+[00:39:55.036][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/os.lua
+[00:39:55.036][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/package.lua , size = 2.944 KB
+[00:39:55.037][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/package.lua
+[00:39:55.037][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/package.lua
+[00:39:55.037][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/package.lua
+[00:39:55.037][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/debug.lua , size = 7.637 KB
+[00:39:55.042][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[00:39:55.042][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[00:39:55.042][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[00:39:55.042][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/table.lua , size = 4.445 KB
+[00:39:55.044][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/table.lua
+[00:39:55.044][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/table.lua
+[00:39:55.044][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/table.lua
+[00:39:55.044][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/builtin.lua , size = 0.302 KB
+[00:39:55.044][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[00:39:55.044][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[00:39:55.044][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.6/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[00:39:55.044][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.034] sec: <fallback>
+[00:39:55.044][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: <fallback>
+[00:39:55.044][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	<fallback>
+[00:39:55.044][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	<fallback>
+[00:39:55.046][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/astro/.config/matugen/templates/wezterm.lua
+[00:39:55.046][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.035] sec: file:///home/astro/.config/matugen
+[00:39:55.046][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: file:///home/astro/.config/matugen
+[00:39:55.046][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	file:///home/astro/.config/matugen
+[00:39:55.046][info] [#0:script/workspace/workspace.lua:381]: Preload finish at:	file:///home/astro/.config/matugen
+[00:39:55.048][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[00:39:55.073][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.009] sec.
+[00:40:01.759][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[00:40:01.862][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[00:40:01.862][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[00:40:01.862][info] [#0:script/provider/provider.lua:66]: nil
+[00:49:54.311][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.830 MB
+        # 00 : 6.493 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     25
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      25
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[00:52:05.419][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[00:52:05.437][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[00:55:54.435][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[00:55:54.453][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[00:56:23.316][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[00:56:23.333][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[00:56:24.879][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[00:56:24.982][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[00:56:24.982][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[00:56:24.982][info] [#0:script/provider/provider.lua:66]: nil
+[00:56:25.786][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[00:56:25.803][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[00:56:59.440][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[00:56:59.458][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[00:57:06.441][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[00:57:06.459][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[00:57:26.442][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[00:57:26.460][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[00:57:58.444][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[00:57:58.462][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[00:58:12.046][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[00:58:12.148][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[00:58:12.148][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[00:58:12.148][info] [#0:script/provider/provider.lua:66]: nil
+[00:58:12.550][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[00:58:12.568][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[00:58:14.255][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[00:58:14.357][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[00:58:14.357][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[00:58:14.357][info] [#0:script/provider/provider.lua:66]: nil
+[00:59:04.449][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[00:59:04.467][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[00:59:29.640][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[00:59:29.743][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[00:59:29.743][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[00:59:29.743][info] [#0:script/provider/provider.lua:66]: nil
+[00:59:54.354][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.648 MB
+        # 00 : 6.310 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     11
+        Running:   0
+        Suspended: 1
+        Normal:    0
+        Dead:      10
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   1
+        Waiting:  0
+==============================================
+[01:00:05.255][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:00:05.357][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:00:05.357][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:00:05.357][info] [#0:script/provider/provider.lua:66]: nil
+[01:00:06.260][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:00:06.277][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:00:22.455][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:00:22.472][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:01:25.459][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:01:25.460][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:01:25.460][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:01:25.460][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:01:25.460][info] [#0:script/provider/provider.lua:66]: nil
+[01:01:25.481][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.010] sec.
+[01:01:58.062][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:01:58.165][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:01:58.165][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:01:58.165][info] [#0:script/provider/provider.lua:66]: nil
+[01:01:59.067][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:01:59.085][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:02:17.463][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:02:17.481][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:02:40.065][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:02:40.167][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:02:40.167][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:02:40.167][info] [#0:script/provider/provider.lua:66]: nil
+[01:02:41.070][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:02:41.088][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:03:20.970][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:03:21.072][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:03:21.072][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:03:21.072][info] [#0:script/provider/provider.lua:66]: nil
+[01:03:21.875][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:03:21.892][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:04:05.373][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:04:05.475][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:04:05.475][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:04:05.475][info] [#0:script/provider/provider.lua:66]: nil
+[01:04:05.877][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:04:05.895][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:05:26.178][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:05:26.280][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:05:26.280][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:05:26.280][info] [#0:script/provider/provider.lua:66]: nil
+[01:05:27.083][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:05:27.100][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.005] sec.
+[01:05:56.928][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:05:57.031][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:05:57.031][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:05:57.031][info] [#0:script/provider/provider.lua:66]: nil
+[01:05:57.233][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:05:57.255][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.009] sec.
+[01:06:20.385][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:06:20.487][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:06:20.487][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:06:20.487][info] [#0:script/provider/provider.lua:66]: nil
+[01:06:20.487][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:06:20.507][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.007] sec.
+[01:06:58.287][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:06:58.389][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:06:58.389][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:06:58.389][info] [#0:script/provider/provider.lua:66]: nil
+[01:06:59.292][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:06:59.310][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:07:20.791][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:07:20.809][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:07:55.491][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:07:55.508][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:08:18.492][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:08:18.510][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:09:13.397][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:09:13.399][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:09:13.399][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:09:13.399][info] [#0:script/provider/provider.lua:66]: nil
+[01:09:14.205][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:09:14.223][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:09:26.998][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:09:27.100][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:09:27.100][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:09:27.100][info] [#0:script/provider/provider.lua:66]: nil
+[01:09:28.203][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:09:28.221][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:09:50.231][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:09:50.333][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:09:50.333][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:09:50.333][info] [#0:script/provider/provider.lua:66]: nil
+[01:09:51.900][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:09:51.917][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:09:54.427][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.489 MB
+        # 00 : 6.152 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     6
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      6
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[01:10:12.128][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:10:12.230][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:10:12.230][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:10:12.230][info] [#0:script/provider/provider.lua:66]: nil
+[01:10:13.801][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:10:13.819][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:10:29.956][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:10:30.058][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:10:30.058][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:10:30.058][info] [#0:script/provider/provider.lua:66]: nil
+[01:10:31.702][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:10:31.720][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:10:48.129][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:10:48.231][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:10:48.231][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:10:48.231][info] [#0:script/provider/provider.lua:66]: nil
+[01:10:49.603][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:10:49.621][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:11:02.905][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:11:03.006][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:11:03.006][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:11:03.006][info] [#0:script/provider/provider.lua:66]: nil
+[01:11:04.012][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:11:04.030][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:11:30.713][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:11:30.815][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:11:30.815][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:11:30.815][info] [#0:script/provider/provider.lua:66]: nil
+[01:11:45.531][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:11:45.634][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:11:45.634][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:11:45.634][info] [#0:script/provider/provider.lua:66]: nil
+[01:12:09.010][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:12:09.112][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:12:09.112][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:12:09.112][info] [#0:script/provider/provider.lua:66]: nil
+[01:12:10.319][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:12:10.336][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:12:19.435][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:12:19.537][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:12:19.537][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:12:19.537][info] [#0:script/provider/provider.lua:66]: nil
+[01:12:20.540][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:12:20.558][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:13:21.315][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:13:21.417][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:13:21.417][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:13:21.417][info] [#0:script/provider/provider.lua:66]: nil
+[01:13:22.320][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:13:22.337][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:13:37.515][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:13:37.533][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:14:11.517][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:14:11.535][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:15:50.388][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:15:50.490][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:15:50.490][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:15:50.490][info] [#0:script/provider/provider.lua:66]: nil
+[01:15:52.524][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:15:52.542][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:16:03.427][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:16:03.428][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:16:03.428][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:16:03.428][info] [#0:script/provider/provider.lua:66]: nil
+[01:16:04.031][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:16:04.050][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.007] sec.
+[01:16:32.565][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:16:32.667][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:16:32.667][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:16:32.667][info] [#0:script/provider/provider.lua:66]: nil
+[01:16:33.469][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:16:33.487][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:17:01.267][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:17:01.369][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:17:01.369][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:17:01.369][info] [#0:script/provider/provider.lua:66]: nil
+[01:17:02.729][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:17:02.748][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:17:13.730][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:17:13.833][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:17:13.833][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:17:13.833][info] [#0:script/provider/provider.lua:66]: nil
+[01:17:15.430][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:17:15.448][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.007] sec.
+[01:17:38.286][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:17:38.304][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:17:40.433][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:17:40.434][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:17:40.434][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:17:40.434][info] [#0:script/provider/provider.lua:66]: nil
+[01:17:41.238][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:17:41.256][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:18:14.935][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:18:15.037][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:18:15.037][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:18:15.037][info] [#0:script/provider/provider.lua:66]: nil
+[01:18:16.434][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:18:16.452][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:19:06.310][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:19:06.411][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:19:06.412][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:19:06.412][info] [#0:script/provider/provider.lua:66]: nil
+[01:19:07.738][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:19:07.757][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.007] sec.
+[01:19:25.140][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:19:25.242][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:19:25.242][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:19:25.242][info] [#0:script/provider/provider.lua:66]: nil
+[01:19:25.945][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:19:25.963][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:19:54.441][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.493 MB
+        # 00 : 6.156 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     15
+        Running:   0
+        Suspended: 1
+        Normal:    0
+        Dead:      14
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[01:19:56.541][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:19:56.559][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:20:22.136][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:20:22.239][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:20:22.239][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:20:22.239][info] [#0:script/provider/provider.lua:66]: nil
+[01:20:23.644][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:20:23.661][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:20:46.800][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:20:46.902][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:20:46.902][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:20:46.902][info] [#0:script/provider/provider.lua:66]: nil
+[01:20:46.902][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:20:46.921][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.007] sec.
+[01:20:53.297][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:20:53.399][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:20:53.399][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:20:53.399][info] [#0:script/provider/provider.lua:66]: nil
+[01:20:54.646][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:20:54.664][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:22:56.456][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:22:56.457][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:22:56.457][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:22:56.457][info] [#0:script/provider/provider.lua:66]: nil
+[01:22:57.260][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:22:57.278][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:23:16.357][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:23:16.459][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:23:16.459][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:23:16.459][info] [#0:script/provider/provider.lua:66]: nil
+[01:23:17.362][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:23:17.380][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:23:43.557][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:23:43.576][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.007] sec.
+[01:23:45.406][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:23:45.508][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:23:45.508][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:23:45.508][info] [#0:script/provider/provider.lua:66]: nil
+[01:23:47.558][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:23:47.575][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:25:00.563][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:25:00.581][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:25:20.466][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:25:20.466][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:25:20.466][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:25:20.466][info] [#0:script/provider/provider.lua:66]: nil
+[01:25:20.771][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:25:20.790][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.007] sec.
+[01:25:40.566][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:25:40.584][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:26:01.168][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:26:01.271][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:26:01.271][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:26:01.271][info] [#0:script/provider/provider.lua:66]: nil
+[01:26:01.973][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:26:01.991][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:26:14.769][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:26:14.871][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:26:14.871][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:26:14.871][info] [#0:script/provider/provider.lua:66]: nil
+[01:26:15.874][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:26:15.892][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:26:30.270][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:26:30.372][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:26:30.372][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:26:30.372][info] [#0:script/provider/provider.lua:66]: nil
+[01:26:30.975][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:26:30.992][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:26:47.571][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:26:47.588][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:27:06.572][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:27:06.572][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:27:06.572][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:27:06.572][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:27:06.572][info] [#0:script/provider/provider.lua:66]: nil
+[01:27:06.593][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.009] sec.
+[01:27:16.873][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:27:16.975][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:27:16.975][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:27:16.975][info] [#0:script/provider/provider.lua:66]: nil
+[01:27:18.573][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:27:18.591][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:27:51.575][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:27:51.593][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:27:58.628][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:27:58.729][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:27:58.729][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:27:58.729][info] [#0:script/provider/provider.lua:66]: nil
+[01:28:06.576][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:28:06.594][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:28:17.428][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:28:17.529][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:28:17.529][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:28:17.529][info] [#0:script/provider/provider.lua:66]: nil
+[01:28:19.577][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:28:19.596][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.007] sec.
+[01:29:36.583][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:29:36.600][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:29:52.584][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:29:52.601][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:29:54.484][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.464 MB
+        # 00 : 6.127 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[01:30:08.386][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:30:08.488][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:30:08.488][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:30:08.488][info] [#0:script/provider/provider.lua:66]: nil
+[01:30:09.291][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:30:09.309][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:30:52.289][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:30:52.392][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:30:52.392][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:30:52.392][info] [#0:script/provider/provider.lua:66]: nil
+[01:30:55.488][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:30:55.506][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:30:57.902][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:30:58.004][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:30:58.004][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:30:58.004][info] [#0:script/provider/provider.lua:66]: nil
+[01:30:59.689][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:30:59.707][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:31:20.791][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:31:20.893][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:31:20.893][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:31:20.893][info] [#0:script/provider/provider.lua:66]: nil
+[01:31:22.590][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:31:22.608][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:31:29.591][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:31:29.609][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:31:35.493][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:31:35.595][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:31:35.595][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:31:35.595][info] [#0:script/provider/provider.lua:66]: nil
+[01:31:36.298][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:31:36.316][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:31:44.993][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:31:45.095][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:31:45.095][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:31:45.095][info] [#0:script/provider/provider.lua:66]: nil
+[01:31:46.592][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:31:46.610][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:31:49.193][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:31:49.295][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:31:49.295][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:31:49.295][info] [#0:script/provider/provider.lua:66]: nil
+[01:31:50.592][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:31:50.610][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:32:23.271][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:32:23.373][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:32:23.373][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:32:23.373][info] [#0:script/provider/provider.lua:66]: nil
+[01:32:24.996][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:32:25.013][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:32:44.897][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:32:44.999][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:32:44.999][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:32:44.999][info] [#0:script/provider/provider.lua:66]: nil
+[01:32:46.597][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:32:46.615][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:35:20.571][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:35:20.673][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:35:20.673][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:35:20.673][info] [#0:script/provider/provider.lua:66]: nil
+[01:35:22.608][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:35:22.626][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:37:13.671][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:37:13.773][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:37:13.773][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:37:13.773][info] [#0:script/provider/provider.lua:66]: nil
+[01:37:14.476][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:37:14.493][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.005] sec.
+[01:37:24.617][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:37:24.634][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:37:32.254][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:37:32.273][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.008] sec.
+[01:37:33.706][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/astro/.config/matugen/templates/wezterm.lua
+[01:37:41.618][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:37:41.634][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.004] sec.
+[01:38:18.620][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:38:18.638][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:38:19.543][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:38:19.646][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:38:19.646][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:38:19.646][info] [#0:script/provider/provider.lua:66]: nil
+[01:38:37.323][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:38:37.425][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:38:37.425][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:38:37.425][info] [#0:script/provider/provider.lua:66]: nil
+[01:38:38.127][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:38:38.145][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:38:48.219][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:38:48.237][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:39:02.623][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:39:02.641][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:39:05.525][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:39:05.628][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:39:05.628][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:39:05.628][info] [#0:script/provider/provider.lua:66]: nil
+[01:39:06.130][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:39:06.149][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.007] sec.
+[01:39:19.047][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:39:19.149][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:39:19.149][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:39:19.149][info] [#0:script/provider/provider.lua:66]: nil
+[01:39:20.938][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:39:20.956][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:39:54.527][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.673 MB
+        # 00 : 6.335 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[01:42:33.838][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:42:33.940][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:42:33.940][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:42:33.940][info] [#0:script/provider/provider.lua:66]: nil
+[01:42:34.843][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:42:34.862][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.007] sec.
+[01:42:47.639][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:42:47.657][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:43:07.403][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:43:07.504][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:43:07.505][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:43:07.505][info] [#0:script/provider/provider.lua:66]: nil
+[01:43:09.409][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:43:09.426][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.005] sec.
+[01:43:13.066][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/astro/.config/matugen/templates/wezterm.lua
+[01:43:19.308][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:43:19.308][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:43:19.311][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:43:19.311][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:43:19.311][info] [#0:script/provider/provider.lua:66]: nil
+[01:43:19.332][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.012] sec.
+[01:44:52.874][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:44:52.976][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:44:52.976][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:44:52.976][info] [#0:script/provider/provider.lua:66]: nil
+[01:44:53.578][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:44:53.596][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.005] sec.
+[01:49:18.566][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:49:18.584][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.005] sec.
+[01:49:27.667][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:49:27.685][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:49:33.668][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:49:33.685][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:49:42.668][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:49:42.686][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:49:54.569][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.687 MB
+        # 00 : 6.350 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[01:50:31.607][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:50:31.625][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:50:34.373][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:50:34.391][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:50:39.672][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:50:39.690][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:50:46.673][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:50:46.690][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:51:01.674][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:51:01.691][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:51:10.674][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:51:10.693][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.007] sec.
+[01:51:20.675][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:51:20.693][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:51:34.676][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:51:34.694][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:52:48.681][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:52:48.699][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:53:14.683][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:53:14.701][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:53:19.683][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:53:19.701][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:53:35.684][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:53:35.702][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:53:42.537][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:53:42.640][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:53:42.640][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:53:42.640][info] [#0:script/provider/provider.lua:66]: nil
+[01:53:44.504][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[01:53:44.522][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[01:54:10.561][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:54:10.664][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:54:10.664][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:54:10.664][info] [#0:script/provider/provider.lua:66]: nil
+[01:54:10.967][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:54:11.070][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:54:11.070][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:54:11.070][info] [#0:script/provider/provider.lua:66]: nil
+[01:54:11.573][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:54:11.676][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:54:11.677][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:54:11.677][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:54:11.677][info] [#0:script/provider/provider.lua:66]: nil
+[01:54:11.682][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:54:11.682][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:54:11.682][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:54:11.682][info] [#0:script/provider/provider.lua:66]: nil
+[01:54:11.682][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:54:11.688][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:54:11.688][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:54:11.688][info] [#0:script/provider/provider.lua:66]: nil
+[01:54:11.688][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[01:54:11.688][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[01:54:11.688][info] [#0:script/provider/provider.lua:66]: nil
+[01:59:54.612][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.758 MB
+        # 00 : 7.421 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     60
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      60
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[02:09:54.652][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.763 MB
+        # 00 : 7.425 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     60
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      60
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[02:19:33.791][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:19:33.803][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:19:54.693][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.687 MB
+        # 00 : 6.350 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[02:20:11.394][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:20:11.496][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:20:11.496][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:20:11.496][info] [#0:script/provider/provider.lua:66]: nil
+[02:20:11.798][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:20:11.810][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:22:23.671][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:22:23.773][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:22:23.773][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:22:23.773][info] [#0:script/provider/provider.lua:66]: nil
+[02:22:25.803][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:22:25.815][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:23:06.107][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:23:06.209][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:23:06.209][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:23:06.209][info] [#0:script/provider/provider.lua:66]: nil
+[02:23:07.806][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:23:07.818][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:23:38.808][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:23:38.820][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:23:42.283][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:23:42.295][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:23:45.776][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:23:45.776][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:23:45.778][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:23:45.778][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:23:45.778][info] [#0:script/provider/provider.lua:66]: nil
+[02:23:45.791][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.007] sec.
+[02:24:04.612][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:24:04.714][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:24:04.714][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:24:04.714][info] [#0:script/provider/provider.lua:66]: nil
+[02:24:21.512][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:24:21.614][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:24:21.615][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:24:21.615][info] [#0:script/provider/provider.lua:66]: nil
+[02:24:24.711][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:24:24.723][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:24:36.812][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:24:36.824][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:24:37.330][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:24:37.433][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:24:37.433][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:24:37.433][info] [#0:script/provider/provider.lua:66]: nil
+[02:24:38.436][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:24:38.448][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.004] sec.
+[02:24:50.409][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:24:50.511][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:24:50.511][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:24:50.511][info] [#0:script/provider/provider.lua:66]: nil
+[02:24:52.014][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:24:52.025][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:25:15.216][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:25:15.318][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:25:15.318][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:25:15.318][info] [#0:script/provider/provider.lua:66]: nil
+[02:25:16.715][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:25:16.726][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:25:43.445][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:25:43.547][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:25:43.547][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:25:43.547][info] [#0:script/provider/provider.lua:66]: nil
+[02:25:45.017][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:25:45.029][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:26:16.819][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:26:16.820][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:26:16.821][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:26:16.821][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:26:16.821][info] [#0:script/provider/provider.lua:66]: nil
+[02:26:16.834][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[02:26:21.820][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:26:21.831][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:26:41.434][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:26:41.537][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:26:41.537][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:26:41.537][info] [#0:script/provider/provider.lua:66]: nil
+[02:26:43.021][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:26:43.033][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:28:32.818][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:28:32.921][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:28:32.921][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:28:32.921][info] [#0:script/provider/provider.lua:66]: nil
+[02:29:54.734][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.862 MB
+        # 00 : 6.524 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     9
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      9
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[02:31:00.108][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:31:00.210][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:31:00.210][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:31:00.210][info] [#0:script/provider/provider.lua:66]: nil
+[02:31:00.514][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:31:00.530][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.005] sec.
+[02:31:39.276][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:31:39.379][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:31:39.379][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:31:39.379][info] [#0:script/provider/provider.lua:66]: nil
+[02:31:41.142][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:31:41.153][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:33:08.848][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:33:08.860][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:33:24.749][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:33:24.760][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:33:54.640][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:33:54.741][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:33:54.741][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:33:54.741][info] [#0:script/provider/provider.lua:66]: nil
+[02:33:56.251][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:33:56.263][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:34:20.560][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:34:20.662][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:34:20.662][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:34:20.662][info] [#0:script/provider/provider.lua:66]: nil
+[02:34:22.353][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:34:22.365][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:34:25.359][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:34:25.461][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:34:25.461][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:34:25.461][info] [#0:script/provider/provider.lua:66]: nil
+[02:34:27.254][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:34:27.265][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:34:41.116][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:34:41.128][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:34:42.803][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:34:42.906][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:34:42.906][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:34:42.906][info] [#0:script/provider/provider.lua:66]: nil
+[02:34:44.754][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:34:44.766][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:34:47.830][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:34:47.932][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:34:47.932][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:34:47.932][info] [#0:script/provider/provider.lua:66]: nil
+[02:34:49.564][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:34:49.576][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:34:52.855][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:34:52.867][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:34:58.855][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:34:58.868][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.004] sec.
+[02:35:08.728][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:35:08.830][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:35:08.830][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:35:08.830][info] [#0:script/provider/provider.lua:66]: nil
+[02:35:10.856][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:35:10.868][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:35:31.259][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:35:31.361][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:35:31.361][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:35:31.361][info] [#0:script/provider/provider.lua:66]: nil
+[02:35:37.159][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:35:37.261][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:35:37.261][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:35:37.261][info] [#0:script/provider/provider.lua:66]: nil
+[02:35:38.794][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:35:38.896][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:35:38.896][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:35:38.896][info] [#0:script/provider/provider.lua:66]: nil
+[02:35:51.942][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:35:52.045][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:35:52.045][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:35:52.045][info] [#0:script/provider/provider.lua:66]: nil
+[02:36:18.375][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:36:18.477][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:36:18.477][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:36:18.477][info] [#0:script/provider/provider.lua:66]: nil
+[02:36:20.161][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:36:20.172][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:36:26.861][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:36:26.873][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:36:29.262][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:36:29.365][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:36:29.365][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:36:29.365][info] [#0:script/provider/provider.lua:66]: nil
+[02:36:33.663][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:36:33.765][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:36:33.765][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:36:33.765][info] [#0:script/provider/provider.lua:66]: nil
+[02:36:49.664][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:36:49.766][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:36:49.766][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:36:49.766][info] [#0:script/provider/provider.lua:66]: nil
+[02:36:50.769][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:36:50.781][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:36:54.863][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:36:54.875][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:37:16.766][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:37:16.868][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:37:16.868][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:37:16.868][info] [#0:script/provider/provider.lua:66]: nil
+[02:37:17.471][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:37:17.483][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:37:20.808][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:37:20.910][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:37:20.910][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:37:20.910][info] [#0:script/provider/provider.lua:66]: nil
+[02:37:22.865][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:37:22.877][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:39:13.374][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:39:13.475][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:39:13.476][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:39:13.476][info] [#0:script/provider/provider.lua:66]: nil
+[02:39:14.278][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:39:14.290][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:39:43.175][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:39:43.277][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:39:43.277][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:39:43.277][info] [#0:script/provider/provider.lua:66]: nil
+[02:39:44.875][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:39:44.887][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:39:54.775][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.687 MB
+        # 00 : 6.350 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[02:47:04.906][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:47:04.917][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.002] sec.
+[02:49:20.916][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:49:20.927][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:49:37.317][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:49:37.419][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:49:37.419][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:49:37.419][info] [#0:script/provider/provider.lua:66]: nil
+[02:49:38.917][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:49:38.928][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:49:54.818][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.687 MB
+        # 00 : 6.350 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[02:52:00.703][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:52:00.805][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:52:00.805][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:52:00.805][info] [#0:script/provider/provider.lua:66]: nil
+[02:52:02.227][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:52:02.239][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:53:26.832][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:53:26.844][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:53:48.934][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:53:48.946][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:53:49.953][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:53:49.953][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:53:49.953][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:53:49.953][info] [#0:script/provider/provider.lua:66]: nil
+[02:53:57.935][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:53:58.037][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:53:58.037][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:53:58.037][info] [#0:script/provider/provider.lua:66]: nil
+[02:53:59.835][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:53:59.846][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:54:12.136][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:54:12.238][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:54:12.238][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:54:12.238][info] [#0:script/provider/provider.lua:66]: nil
+[02:54:13.936][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:54:13.949][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.004] sec.
+[02:54:54.794][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:54:54.896][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:54:54.896][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:54:54.896][info] [#0:script/provider/provider.lua:66]: nil
+[02:54:56.939][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:54:56.951][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:54:57.356][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:54:57.457][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:54:57.457][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:54:57.457][info] [#0:script/provider/provider.lua:66]: nil
+[02:55:10.890][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:55:10.992][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:55:10.992][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:55:10.992][info] [#0:script/provider/provider.lua:66]: nil
+[02:55:12.940][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:55:12.951][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:56:06.944][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:56:07.046][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:56:07.046][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:56:07.046][info] [#0:script/provider/provider.lua:66]: nil
+[02:56:08.944][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:56:08.955][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:56:16.944][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:56:16.956][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:56:20.876][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:56:20.978][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:56:20.978][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:56:20.978][info] [#0:script/provider/provider.lua:66]: nil
+[02:56:22.945][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:56:22.956][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:57:06.248][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:57:06.350][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[02:57:06.350][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[02:57:06.350][info] [#0:script/provider/provider.lua:66]: nil
+[02:57:07.948][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:57:07.960][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:57:15.948][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[02:57:15.960][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[02:59:54.861][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.688 MB
+        # 00 : 6.350 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[03:01:50.869][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:01:50.871][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:01:50.871][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:01:50.871][info] [#0:script/provider/provider.lua:66]: nil
+[03:01:52.968][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:01:52.980][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:02:39.223][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:02:39.325][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:02:39.325][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:02:39.325][info] [#0:script/provider/provider.lua:66]: nil
+[03:02:41.071][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:02:41.083][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:03:02.735][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:03:02.837][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:03:02.837][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:03:02.837][info] [#0:script/provider/provider.lua:66]: nil
+[03:03:04.473][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:03:04.485][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:03:18.250][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:03:18.352][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:03:18.352][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:03:18.352][info] [#0:script/provider/provider.lua:66]: nil
+[03:03:20.274][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:03:20.286][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:03:26.375][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:03:26.477][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:03:26.477][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:03:26.477][info] [#0:script/provider/provider.lua:66]: nil
+[03:03:27.975][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:03:27.987][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:03:35.518][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:03:35.620][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:03:35.620][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:03:35.620][info] [#0:script/provider/provider.lua:66]: nil
+[03:03:37.376][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:03:37.387][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:03:47.548][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:03:47.650][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:03:47.650][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:03:47.650][info] [#0:script/provider/provider.lua:66]: nil
+[03:03:49.076][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:03:49.088][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:04:46.980][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:04:46.992][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:04:53.410][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:04:53.512][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:04:53.512][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:04:53.512][info] [#0:script/provider/provider.lua:66]: nil
+[03:04:55.081][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:04:55.093][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:05:33.882][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:05:33.984][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:05:33.984][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:05:33.984][info] [#0:script/provider/provider.lua:66]: nil
+[03:05:35.984][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:05:35.996][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:05:37.804][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:05:37.906][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:05:37.906][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:05:37.906][info] [#0:script/provider/provider.lua:66]: nil
+[03:05:39.984][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:05:39.995][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:05:43.685][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:05:43.787][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:05:43.787][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:05:43.787][info] [#0:script/provider/provider.lua:66]: nil
+[03:05:44.592][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:05:44.603][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:06:04.986][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:06:04.997][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:06:06.004][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:06:06.107][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:06:06.107][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:06:06.107][info] [#0:script/provider/provider.lua:66]: nil
+[03:06:37.818][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:06:37.920][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:06:37.920][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:06:37.920][info] [#0:script/provider/provider.lua:66]: nil
+[03:06:39.988][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:06:40.000][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:06:44.988][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:06:45.000][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:06:47.891][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:06:47.891][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:06:47.891][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:06:47.891][info] [#0:script/provider/provider.lua:66]: nil
+[03:06:59.093][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:06:59.196][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:06:59.196][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:06:59.196][info] [#0:script/provider/provider.lua:66]: nil
+[03:06:59.799][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:06:59.810][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:07:17.123][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:07:17.226][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:07:17.226][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:07:17.226][info] [#0:script/provider/provider.lua:66]: nil
+[03:07:17.628][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:07:17.640][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:07:27.592][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:07:27.694][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:07:27.694][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:07:27.694][info] [#0:script/provider/provider.lua:66]: nil
+[03:07:28.991][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:07:29.003][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:07:31.292][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:07:31.394][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:07:31.394][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:07:31.394][info] [#0:script/provider/provider.lua:66]: nil
+[03:07:32.992][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:07:33.003][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:08:00.637][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:08:00.739][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:08:00.739][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:08:00.739][info] [#0:script/provider/provider.lua:66]: nil
+[03:08:02.595][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:08:02.606][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:08:26.996][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:08:27.007][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:08:27.713][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:08:27.815][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:08:27.815][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:08:27.815][info] [#0:script/provider/provider.lua:66]: nil
+[03:08:33.597][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:08:33.699][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:08:33.699][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:08:33.699][info] [#0:script/provider/provider.lua:66]: nil
+[03:08:36.896][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:08:36.908][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:08:59.299][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:08:59.403][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:08:59.403][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:08:59.403][info] [#0:script/provider/provider.lua:66]: nil
+[03:09:16.460][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:09:16.562][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:09:16.563][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:09:16.563][info] [#0:script/provider/provider.lua:66]: nil
+[03:09:33.477][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:09:33.579][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:09:33.579][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:09:33.579][info] [#0:script/provider/provider.lua:66]: nil
+[03:09:54.902][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 7.207 MB
+        # 00 : 6.869 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     25
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      25
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[03:10:05.804][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:10:05.906][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:10:05.906][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:10:05.906][info] [#0:script/provider/provider.lua:66]: nil
+[03:10:23.979][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:10:24.081][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:10:24.081][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:10:24.081][info] [#0:script/provider/provider.lua:66]: nil
+[03:10:26.004][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:10:26.015][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.002] sec.
+[03:10:40.353][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:10:40.455][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:10:40.455][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:10:40.455][info] [#0:script/provider/provider.lua:66]: nil
+[03:10:42.105][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:10:42.117][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:11:14.795][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:11:14.899][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:11:14.899][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:11:14.899][info] [#0:script/provider/provider.lua:66]: nil
+[03:11:16.208][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:11:16.219][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:11:18.532][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:11:18.635][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:11:18.635][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:11:18.635][info] [#0:script/provider/provider.lua:66]: nil
+[03:11:20.208][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:11:20.219][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:11:22.702][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:11:22.804][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:11:22.804][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:11:22.804][info] [#0:script/provider/provider.lua:66]: nil
+[03:11:24.509][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:11:24.520][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:11:29.008][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:11:29.009][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:11:29.009][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:11:29.009][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:11:29.009][info] [#0:script/provider/provider.lua:66]: nil
+[03:11:29.023][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[03:11:49.010][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:11:49.112][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:11:49.112][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:11:49.112][info] [#0:script/provider/provider.lua:66]: nil
+[03:11:51.010][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:11:51.021][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:11:53.652][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:11:53.755][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:11:53.755][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:11:53.755][info] [#0:script/provider/provider.lua:66]: nil
+[03:11:55.110][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:11:55.121][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:12:00.624][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:12:00.624][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:12:00.626][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:12:00.626][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:12:00.626][info] [#0:script/provider/provider.lua:66]: nil
+[03:12:00.639][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.006] sec.
+[03:12:20.700][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:12:20.802][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:12:20.802][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:12:20.802][info] [#0:script/provider/provider.lua:66]: nil
+[03:12:22.012][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:12:22.023][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:12:22.529][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:12:22.540][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.002] sec.
+[03:12:30.809][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:12:30.912][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:12:30.912][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:12:30.912][info] [#0:script/provider/provider.lua:66]: nil
+[03:12:33.013][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:12:33.024][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:14:27.321][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:14:27.423][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:14:27.423][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:14:27.424][info] [#0:script/provider/provider.lua:66]: nil
+[03:14:48.680][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:14:48.783][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:14:48.783][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:14:48.783][info] [#0:script/provider/provider.lua:66]: nil
+[03:14:50.523][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:14:50.535][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:16:31.430][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:16:31.532][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:16:31.532][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:16:31.532][info] [#0:script/provider/provider.lua:66]: nil
+[03:16:32.929][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:16:32.941][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:18:02.036][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:18:02.047][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:18:09.645][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:18:09.747][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:18:09.747][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:18:09.747][info] [#0:script/provider/provider.lua:66]: nil
+[03:18:11.437][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:18:11.448][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:18:42.039][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:18:42.050][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:18:43.721][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:18:43.824][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:18:43.824][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:18:43.824][info] [#0:script/provider/provider.lua:66]: nil
+[03:19:01.440][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:19:01.542][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:19:01.542][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:19:01.542][info] [#0:script/provider/provider.lua:66]: nil
+[03:19:03.040][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:19:03.051][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:19:19.042][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:19:19.144][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:19:19.144][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:19:19.144][info] [#0:script/provider/provider.lua:66]: nil
+[03:19:31.605][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:19:31.709][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:19:31.709][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:19:31.709][info] [#0:script/provider/provider.lua:66]: nil
+[03:19:33.443][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:19:33.454][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:19:37.791][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:19:37.893][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:19:37.893][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:19:37.893][info] [#0:script/provider/provider.lua:66]: nil
+[03:19:39.443][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:19:39.454][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:19:53.444][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:19:53.546][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:19:53.546][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:19:53.546][info] [#0:script/provider/provider.lua:66]: nil
+[03:19:54.349][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:19:54.360][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:19:54.966][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.687 MB
+        # 00 : 6.350 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[03:20:55.548][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:20:55.650][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:20:55.651][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:20:55.651][info] [#0:script/provider/provider.lua:66]: nil
+[03:20:57.048][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:20:57.059][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:21:17.050][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:21:17.152][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:21:17.152][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:21:17.152][info] [#0:script/provider/provider.lua:66]: nil
+[03:21:23.851][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:21:23.953][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:21:23.953][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:21:23.953][info] [#0:script/provider/provider.lua:66]: nil
+[03:21:28.954][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:21:28.958][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:21:28.958][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:21:28.958][info] [#0:script/provider/provider.lua:66]: nil
+[03:21:41.453][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:21:41.555][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:21:41.555][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:21:41.555][info] [#0:script/provider/provider.lua:66]: nil
+[03:21:52.720][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:21:52.822][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:21:52.822][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:21:52.822][info] [#0:script/provider/provider.lua:66]: nil
+[03:21:54.454][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:21:54.465][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:23:33.060][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:23:33.072][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:23:36.361][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:23:36.463][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:23:36.463][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:23:36.463][info] [#0:script/provider/provider.lua:66]: nil
+[03:23:38.060][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:23:38.072][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:24:16.063][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:24:16.075][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:24:30.241][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:24:30.343][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:24:30.343][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:24:30.343][info] [#0:script/provider/provider.lua:66]: nil
+[03:24:32.164][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:24:32.176][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:24:45.961][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:24:46.063][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:24:46.063][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:24:46.063][info] [#0:script/provider/provider.lua:66]: nil
+[03:24:48.065][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:24:48.077][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:24:59.369][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:24:59.471][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:24:59.471][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:24:59.471][info] [#0:script/provider/provider.lua:66]: nil
+[03:25:01.567][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:25:01.578][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:25:20.067][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:25:20.079][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:25:31.968][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:25:31.980][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:25:44.570][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:25:44.672][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:25:44.672][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:25:44.672][info] [#0:script/provider/provider.lua:66]: nil
+[03:25:47.969][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:25:47.981][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:26:09.498][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:26:09.601][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:26:09.601][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:26:09.601][info] [#0:script/provider/provider.lua:66]: nil
+[03:26:11.271][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:26:11.282][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:26:15.771][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:26:15.874][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:26:15.874][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:26:15.874][info] [#0:script/provider/provider.lua:66]: nil
+[03:26:17.372][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:26:17.383][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:27:22.893][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:27:22.995][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:27:22.995][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:27:22.995][info] [#0:script/provider/provider.lua:66]: nil
+[03:27:25.076][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:27:25.087][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:27:27.477][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:27:27.579][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:27:27.579][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:27:27.579][info] [#0:script/provider/provider.lua:66]: nil
+[03:27:29.484][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:27:29.484][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:27:29.484][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:27:29.484][info] [#0:script/provider/provider.lua:66]: nil
+[03:27:31.677][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:27:31.689][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:27:45.077][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:27:45.179][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:27:45.179][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:27:45.179][info] [#0:script/provider/provider.lua:66]: nil
+[03:27:47.077][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:27:47.089][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:27:49.816][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:27:49.918][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:27:49.918][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:27:49.918][info] [#0:script/provider/provider.lua:66]: nil
+[03:27:51.178][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:27:51.189][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:28:05.892][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:28:05.994][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:28:05.994][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:28:05.994][info] [#0:script/provider/provider.lua:66]: nil
+[03:28:08.079][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:28:08.090][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:29:10.015][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:29:10.117][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:29:10.117][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:29:10.117][info] [#0:script/provider/provider.lua:66]: nil
+[03:29:15.784][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:29:15.887][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:29:15.887][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:29:15.887][info] [#0:script/provider/provider.lua:66]: nil
+[03:29:16.289][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:29:16.301][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:29:54.987][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.687 MB
+        # 00 : 6.350 MB
+        # 01 : 0.104 MB
+        # 02 : 0.053 MB
+        # 03 : 0.053 MB
+        # 04 : 0.127 MB
+    --------------- Coroutine ---------------
+        Total:     1
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      1
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[03:30:09.087][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:30:09.099][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:30:11.919][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:30:12.021][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:30:12.021][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:30:12.021][info] [#0:script/provider/provider.lua:66]: nil
+[03:30:14.087][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:30:14.099][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:30:25.491][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:30:25.593][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:30:25.593][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:30:25.593][info] [#0:script/provider/provider.lua:66]: nil
+[03:30:27.589][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:30:27.601][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:30:56.001][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:30:56.012][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:30:58.091][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:30:58.193][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:30:58.193][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:30:58.193][info] [#0:script/provider/provider.lua:66]: nil
+[03:30:58.995][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:30:59.007][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:31:02.044][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:31:02.147][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:31:02.147][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:31:02.147][info] [#0:script/provider/provider.lua:66]: nil
+[03:31:04.091][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:31:04.102][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:31:23.593][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:31:23.695][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:31:23.695][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:31:23.695][info] [#0:script/provider/provider.lua:66]: nil
+[03:31:24.497][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:31:24.509][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:31:47.795][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:31:47.897][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:31:47.897][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:31:47.897][info] [#0:script/provider/provider.lua:66]: nil
+[03:31:48.900][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:31:48.911][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:32:42.078][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:32:42.089][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:32:43.456][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:32:43.558][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:32:43.558][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:32:43.558][info] [#0:script/provider/provider.lua:66]: nil
+[03:32:45.098][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:32:45.109][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:32:55.070][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:32:55.172][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:32:55.172][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:32:55.172][info] [#0:script/provider/provider.lua:66]: nil
+[03:32:57.098][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:32:57.110][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:32:59.536][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:32:59.638][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:32:59.638][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:32:59.638][info] [#0:script/provider/provider.lua:66]: nil
+[03:33:01.499][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:33:01.511][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:33:15.100][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:33:15.202][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:33:15.202][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:33:15.202][info] [#0:script/provider/provider.lua:66]: nil
+[03:33:25.301][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:33:25.404][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:33:25.404][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:33:25.404][info] [#0:script/provider/provider.lua:66]: nil
+[03:34:26.305][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:34:26.407][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:34:26.407][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:34:26.407][info] [#0:script/provider/provider.lua:66]: nil
+[03:34:28.105][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:34:28.116][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:34:33.306][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:34:33.408][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:34:33.408][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:34:33.408][info] [#0:script/provider/provider.lua:66]: nil
+[03:34:34.411][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:34:34.423][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:34:41.106][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:34:41.117][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:34:45.011][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:34:45.012][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:34:45.012][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:34:45.012][info] [#0:script/provider/provider.lua:66]: nil
+[03:34:47.006][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:34:47.018][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:34:58.107][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:34:58.119][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:35:08.108][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:35:08.119][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:35:16.108][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:35:16.120][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:35:26.911][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:35:27.013][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:35:27.013][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:35:27.013][info] [#0:script/provider/provider.lua:66]: nil
+[03:35:59.813][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:35:59.915][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:35:59.915][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:35:59.915][info] [#0:script/provider/provider.lua:66]: nil
+[03:36:00.918][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:36:00.931][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.004] sec.
+[03:36:17.106][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:36:17.209][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:36:17.209][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:36:17.209][info] [#0:script/provider/provider.lua:66]: nil
+[03:36:19.113][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:36:19.125][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:36:31.114][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:36:31.125][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:36:34.023][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:36:34.025][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:36:34.025][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:36:34.025][info] [#0:script/provider/provider.lua:66]: nil
+[03:36:34.728][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:36:34.740][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:36:54.115][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:36:54.127][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:37:47.858][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:37:47.960][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:37:47.960][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:37:47.960][info] [#0:script/provider/provider.lua:66]: nil
+[03:37:49.520][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:37:49.531][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.003] sec.
+[03:38:10.321][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:38:10.423][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:38:10.423][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:38:10.423][info] [#0:script/provider/provider.lua:66]: nil
+[03:38:11.426][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/astro/.config/matugen], files count:[12]
+[03:38:11.441][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/astro/.config/matugen] finished, takes [0.004] sec.
+[03:38:18.791][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:38:18.893][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:38:18.893][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:38:18.893][info] [#0:script/provider/provider.lua:66]: nil
+[03:38:27.733][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:38:27.836][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:38:27.836][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:38:27.836][info] [#0:script/provider/provider.lua:66]: nil
+[03:38:50.026][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:38:50.028][warn] [#0:script/config/loader.lua:116]: No config?	{}
+[03:38:50.028][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[03:38:50.028][info] [#0:script/provider/provider.lua:66]: nil
