@@ -35,7 +35,7 @@ echo "## Copying '.config' files and folders..."
 
 filter=(--filter '+ ags/***' --filter '+ hypr/***' --filter '+ macchina/***' --filter '+ qt5ct/***' --filter '+ qt6ct/***' --filter '+ zed/***' --filter '+ matugen/***' --filter '+ electron-flags.conf' --filter '- *')
 
-rsync $RSYNC_OPTS "${filter[@]}" ~/.config/ $DOTFILES_PATH/home/.config
+rsync $RSYNC_OPTS "${filter[@]}" ~/.config/ $DOTFILES_PATH/.config
 
 #echo "Copying SDDM theme..."
 
