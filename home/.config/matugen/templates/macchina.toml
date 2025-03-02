@@ -1,0 +1,25 @@
+# mezora theme - sauce for macchina cli
+
+separator = "❯"
+separator_color = "{{colors.secondary.default.hex}}"
+key_color = "{{colors.primary.default.hex}}"
+prefer_small_ascii = true
+
+[palette]
+type = "Dark"
+visible = false
+glyph = " ⬤ "
+
+[box]
+title = " Astro "
+border = "plain"
+visible = true
+
+
+[randomize]
+key_color = false
+separator_color = false
+
+[custom_ascii]
+color = "{{colors.primary.default.hex}}"
+path = "~/.config/macchina/themes/archlogo.txt"
