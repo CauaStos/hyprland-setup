@@ -30,6 +30,41 @@
       },
       "dev": false
     },
+    "fish": {
+      "manifest": {
+        "id": "fish",
+        "name": "Fish",
+        "version": "0.0.8",
+        "schema_version": 0,
+        "description": "Fish language support for Zed",
+        "repository": "https://github.com/hasit/zed-fish",
+        "authors": [
+          "Hasit Mistry <hasitnm@gmail.com>"
+        ],
+        "lib": {
+          "kind": null,
+          "version": null
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/fish"
+        ],
+        "grammars": {
+          "fish": {
+            "repository": "https://github.com/ram02z/tree-sitter-fish",
+            "rev": "a78aef9abc395c600c38a037ac779afc7e3cc9e0",
+            "path": null
+          }
+        },
+        "language_servers": {},
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null
+      },
+      "dev": false
+    },
     "git-firefly": {
       "manifest": {
         "id": "git-firefly",
@@ -127,8 +162,8 @@
             "language": "HTML",
             "languages": [],
             "language_ids": {
-              "HTML": "html",
-              "CSS": "css"
+              "CSS": "css",
+              "HTML": "html"
             },
             "code_action_kinds": null
           }
@@ -321,6 +356,18 @@
       },
       "hidden": false,
       "grammar": "diff"
+    },
+    "Fish": {
+      "extension": "fish",
+      "path": "languages/fish",
+      "matcher": {
+        "path_suffixes": [
+          "fish"
+        ],
+        "first_line_pattern": "^#!.*\\bfish\\b"
+      },
+      "hidden": false,
+      "grammar": "fish"
     },
     "Git Attributes": {
       "extension": "git-firefly",

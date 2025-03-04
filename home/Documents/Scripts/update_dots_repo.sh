@@ -19,7 +19,7 @@ rm -rf ./.config ./home
 
 echo "# Copying home files and folders..."
 
-filter=(--filter '+ .zshrc' --filter '+ .local/' --filter '+ .local/share/' --filter '+ .local/share/themes/***' --filter '+ .local/share/zed/' --filter '+ .local/share/zed/extensions/***' --filter '- *')
+filter=(--filter '+ .local/' --filter '+ .local/share/' --filter '+ .local/share/themes/***' --filter '+ .local/share/zed/' --filter '+ .local/share/zed/extensions/***' --filter '- *')
 rsync $RSYNC_OPTS "${filter[@]}" ~/ $DOTFILES_PATH/home/
 
 #Document Folders Copy
@@ -33,7 +33,7 @@ rsync $RSYNC_OPTS "${filter[@]}" ~/Documents/ $DOTFILES_PATH/home/Documents/
 
 echo "## Copying '.config' files and folders..."
 
-filter=(--filter '+ AShell/***' --filter '+ hypr/***' --filter '+ macchina/***' --filter '+ qt5ct/***' --filter '+ qt6ct/***' --filter '+ zed/***' --filter '+ matugen/***' --filter '+ electron-flags.conf' --filter '- *')
+filter=(--filter '+ AShell/***' --filter '+ hypr/***' --filter '+ fish/***' --filter '+ fastfetch/***' --filter '+ qt5ct/***' --filter '+ qt6ct/***' --filter '+ zed/***' --filter '+ matugen/***' --filter '+ electron-flags.conf' --filter '- *')
 
 rsync $RSYNC_OPTS "${filter[@]}" ~/.config/ $DOTFILES_PATH/.config
 

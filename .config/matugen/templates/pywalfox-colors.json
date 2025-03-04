@@ -5,7 +5,7 @@
     "color0": "{{colors.surface.default.hex}}",
     "color1": "{{colors.surface_container.default.hex}}",
     "color2": "{{colors.surface_container_highest.default.hex}}",
-    "color3": "#FF0000",
+    "color3": "{{colors.outline.default.hex}}",
     "color4": "#FF0000",
     "color5": "#FF0000",
     "color6": "#FF0000",
