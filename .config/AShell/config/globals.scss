@@ -153,3 +153,9 @@ $h5: calc(var(--screen-height) * 0.014);
     border-width: calc($screen-height * 0.0025);
     border-style: solid;
 }
+
+.disabled {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+}

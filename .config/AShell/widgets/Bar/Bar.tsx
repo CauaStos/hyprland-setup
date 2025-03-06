@@ -2,7 +2,7 @@ import { App, Astal, Gtk, Gdk } from "astal/gtk4";
 import { Variable } from "astal";
 import Workspace from "./components/Workspace/Workspace";
 import Date from "./components/Date/Date";
-import Island from "./components/Island/Island";
+import Island, { isIslandIdle } from "./components/Island/Island";
 
 export default function Bar(monitor: number) {
   const { TOP, LEFT, RIGHT } = Astal.WindowAnchor;
@@ -26,6 +26,19 @@ export default function Bar(monitor: number) {
         <box>
           <Date />
           <Island />
+          <button
+            cssClasses={[
+              "background-surface-container",
+              "round",
+              "container",
+              "date",
+              "container-extra-horizontal-padding",
+            ]}
+            onClicked={() => isIslandIdle.set(!isIslandIdle.get())}
+            label={"me-clique"}
+            halign={Gtk.Align.END}
+            valign={Gtk.Align.CENTER}
+          />
         </box>
       </centerbox>
     </window>

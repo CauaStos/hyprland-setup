@@ -217,6 +217,48 @@
       },
       "dev": false
     },
+    "qml": {
+      "manifest": {
+        "id": "qml",
+        "name": "QML",
+        "version": "0.0.3",
+        "schema_version": 1,
+        "description": "QML support.",
+        "repository": "https://github.com/lkroll/zed-qml",
+        "authors": [
+          "Lennart Kroll <24440161+lkroll@users.noreply.github.com>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.1.0"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/qml"
+        ],
+        "grammars": {
+          "qmljs": {
+            "repository": "https://github.com/yuja/tree-sitter-qmljs",
+            "rev": "febf48a5b6928600cd8fb2a01254743af550780d",
+            "path": null
+          }
+        },
+        "language_servers": {
+          "qmljs": {
+            "language": "QML",
+            "languages": [],
+            "language_ids": {},
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null
+      },
+      "dev": false
+    },
     "scss": {
       "manifest": {
         "id": "scss",
@@ -460,6 +502,18 @@
       },
       "hidden": false,
       "grammar": "lua"
+    },
+    "QML": {
+      "extension": "qml",
+      "path": "languages/qml",
+      "matcher": {
+        "path_suffixes": [
+          "qml"
+        ],
+        "first_line_pattern": null
+      },
+      "hidden": false,
+      "grammar": "qmljs"
     },
     "SCSS": {
       "extension": "scss",

@@ -11,10 +11,6 @@ $container_margin: calc($bar_height * 0.2);
 .Bar {
     min-height: $bar_height;
 
-    .transition-smooth {
-        transition: 1.2s ease-in-out;
-    }
-
     .small {
         min-width: calc($container_width / 3);
         min-height: calc($container_height / 3);

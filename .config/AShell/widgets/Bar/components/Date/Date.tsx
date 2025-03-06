@@ -30,21 +30,27 @@ export default (props: Props) => {
   });
 
   return (
-    <box
-      cssClasses={[
-        "background-surface-container",
-        "round",
-        "container",
-        "date",
-        props.island_mode ? "" : "container-extra-horizontal-padding",
-      ]}
+    <revealer
+      cssClasses={isIslandIdle((isIdle) =>
+        isIdle
+          ? ["background-surface-container", "round", "disabled"]
+          : [
+              "background-surface-container",
+              "round",
+              "container",
+              "date",
+              props.island_mode ? "" : "container-extra-horizontal-padding",
+            ],
+      )}
       halign={Gtk.Align.END}
       valign={Gtk.Align.CENTER}
-      visible={isIslandIdle((isIdle) =>
-        isIdle && props.island_mode != true ? false : true,
-      )} //ISLAND IDLE CONTEXT HERE
+      revealChild={isIslandIdle((isIdle) => {
+        return isIdle ? false : true;
+      })}
+      overflow={Gtk.Overflow.HIDDEN}
+      transition_type={Gtk.RevealerTransitionType.SLIDE_LEFT}
     >
       {time()}
-    </box>
+    </revealer>
   );
 };

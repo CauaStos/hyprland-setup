@@ -5,5 +5,5 @@ import Idle from "./widgets/Idle";
 export const isIslandIdle = Variable(true);
 
 export default () => {
-  return <box>{isIslandIdle((isIdle) => (isIdle ? <Idle /> : ""))}</box>;
+  return <box>{<Idle />}</box>;
 };
