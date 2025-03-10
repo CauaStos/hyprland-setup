@@ -5,13 +5,13 @@ import QtQuick.Controls
 import QtQuick.Layouts
 
     Button {
-
+        id: styledButton
+        property color background_color: '#ff0000'
         background: Rectangle {
             id: bg
-            color: 'black'
+            color: styledButton.background_color
         }
 
-        id: styledButton
         property int weight: 600
         font{
             family: "Quicksand"

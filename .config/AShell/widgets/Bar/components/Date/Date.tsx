@@ -30,7 +30,7 @@ export default (props: Props) => {
   });
 
   return (
-    <revealer
+    <box
       cssClasses={isIslandIdle((isIdle) =>
         isIdle
           ? ["background-surface-container", "round", "disabled"]
@@ -44,13 +44,9 @@ export default (props: Props) => {
       )}
       halign={Gtk.Align.END}
       valign={Gtk.Align.CENTER}
-      revealChild={isIslandIdle((isIdle) => {
-        return isIdle ? false : true;
-      })}
       overflow={Gtk.Overflow.HIDDEN}
-      transition_type={Gtk.RevealerTransitionType.SLIDE_LEFT}
     >
       {time()}
-    </revealer>
+    </box>
   );
 };
