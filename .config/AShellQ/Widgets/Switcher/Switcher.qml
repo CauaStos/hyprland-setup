@@ -14,8 +14,9 @@ Scope {
 
     PanelWindow {
         id: switcher
-        property bool isVisible: false
 
+        property bool isVisible: false
+        WlrLayershell.layer: WlrLayer.Overlay
 
         property int screen_width: switcher.screen.width
         property int screen_height: switcher.screen.height
@@ -234,6 +235,7 @@ Scope {
                 }
             })
         }
+
 
         IpcHandler {
             target: "Switcher"
