@@ -33,7 +33,7 @@ rsync $RSYNC_OPTS "${filter[@]}" ~/Documents/ $DOTFILES_PATH/home/Documents/
 
 echo "## Copying '.config' files and folders..."
 
-filter=(--filter '+ AShell/***' --filter '+ hypr/***' --filter '+ fish/***' --filter '+ fastfetch/***' --filter '+ qt5ct/***' --filter '+ qt6ct/***' --filter '+ zed/***' --filter '+ matugen/***' --filter '+ electron-flags.conf' --filter '+ AShellQ/***' --filter '- *')
+filter=(--filter '+ AShell/***' --filter '+ hypr/***' --filter '+ fish/***' --filter '+ fastfetch/***' --filter '+ qt5ct/***' --filter '+ qt6ct/***' --filter '+ zed/***' --filter '+ matugen/***' --filter '+ electron-flags.conf' --filter '- *')
 
 rsync $RSYNC_OPTS "${filter[@]}" ~/.config/ $DOTFILES_PATH/.config
 

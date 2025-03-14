@@ -162,8 +162,8 @@
             "language": "HTML",
             "languages": [],
             "language_ids": {
-              "CSS": "css",
-              "HTML": "html"
+              "HTML": "html",
+              "CSS": "css"
             },
             "code_action_kinds": null
           }
@@ -295,6 +295,48 @@
           },
           "some-sass-lsp": {
             "language": "SCSS",
+            "languages": [],
+            "language_ids": {},
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null
+      },
+      "dev": false
+    },
+    "slint": {
+      "manifest": {
+        "id": "slint",
+        "name": "Slint",
+        "version": "0.0.3",
+        "schema_version": 1,
+        "description": "Slint support for Zed",
+        "repository": "https://gitlab.com/flukejones/zed-slint",
+        "authors": [
+          "Luke. D Jones <luke@ljones.dev>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.0.6"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/slint"
+        ],
+        "grammars": {
+          "slint": {
+            "repository": "https://github.com/slint-ui/tree-sitter-slint.git",
+            "rev": "acc77c93ef4b73ba8c3a581b8c99d95b55f7178b",
+            "path": null
+          }
+        },
+        "language_servers": {
+          "slint": {
+            "language": "Slint",
             "languages": [],
             "language_ids": {},
             "code_action_kinds": null
@@ -526,6 +568,19 @@
       },
       "hidden": false,
       "grammar": "scss"
+    },
+    "Slint": {
+      "extension": "slint",
+      "path": "languages/slint",
+      "matcher": {
+        "path_suffixes": [
+          "Cargo.lock",
+          "slint"
+        ],
+        "first_line_pattern": null
+      },
+      "hidden": false,
+      "grammar": "slint"
     },
     "TOML": {
       "extension": "toml",
