@@ -26,11 +26,10 @@ rsync $RSYNC_OPTS "${filter[@]}" ~/ $DOTFILES_PATH/home/
 filter=(--filter '+ Zen/***' --filter '+ storage/' --filter '- *')
 rsync $RSYNC_OPTS "${filter[@]}" ~/Documents/ZenConfig/ $DOTFILES_PATH/home/.zen/
 
-
 #Document Folders Copy
 echo "## Copying 'Documents' folders..."
 
-filter=(--filter '+ Hyprlock Assets/***' --filter '+ Scripts/***' --filter '+ Scripts/colors/***' --filter '+ Wallpapers/***' --filter '- *')
+filter=(--filter '+ Hyprlock Assets/***' --filter '+ Scripts/***' --filter '+ Scripts/colors/***' --filter '+ Wallpapers/***' --filter '+ ZenConfig/***' --filter '- *')
 
 rsync $RSYNC_OPTS "${filter[@]}" ~/Documents/ $DOTFILES_PATH/home/Documents/
 
