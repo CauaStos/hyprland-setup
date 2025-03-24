@@ -51,10 +51,6 @@ output_path = '~/.config/macchina/themes/Material.toml'
 input_path = '~/.config/matugen/templates/ags.json'
 output_path = '~/.config/AShell/config/colors.json'
 
-[templates.quickshell]
-input_path = '~/.config/matugen/templates/ags.json'
-output_path = '~/.config/AShellQ/config/colors.json'
-
 [templates.qt5]
 input_path = '~/.config/matugen/templates/qtct-colors.conf'
 output_path = '~/.config/qt5ct/Material.conf'

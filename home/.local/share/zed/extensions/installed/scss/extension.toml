@@ -1,12 +1,14 @@
 id = "scss"
 name = "SCSS"
-version = "0.0.4"
+version = "0.0.5"
 schema_version = 1
 description = "SCSS support"
 repository = "https://github.com/bajrangCoder/zed-scss"
 authors = ["Raunak Raj <bajrangcoders@gmail.com>"]
 themes = []
+icon_themes = []
 languages = ["languages/scss"]
+capabilities = []
 
 [lib]
 kind = "Rust"
@@ -27,6 +29,8 @@ language = "SCSS"
 languages = []
 
 [language_servers.some-sass-lsp.language_ids]
+
+[context_servers]
 
 [slash_commands]
 

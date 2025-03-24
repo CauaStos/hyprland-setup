@@ -26,7 +26,55 @@
         "context_servers": {},
         "slash_commands": {},
         "indexed_docs_providers": {},
-        "snippets": null
+        "snippets": null,
+        "capabilities": []
+      },
+      "dev": false
+    },
+    "dart": {
+      "manifest": {
+        "id": "dart",
+        "name": "Dart",
+        "version": "0.1.3",
+        "schema_version": 1,
+        "description": "Dart support.",
+        "repository": "https://github.com/zed-extensions/dart",
+        "authors": [
+          "Abdullah Alsigar <abdullah.alsigar@gmail.com>",
+          "Flo <flo80@users.noreply.github.com>",
+          "ybbond <hi@ybbond.id>"
+        ],
+        "lib": {
+          "kind": "Rust",
+          "version": "0.1.0"
+        },
+        "themes": [],
+        "icon_themes": [],
+        "languages": [
+          "languages/dart"
+        ],
+        "grammars": {
+          "dart": {
+            "repository": "https://github.com/UserNobody14/tree-sitter-dart",
+            "rev": "6da46473ab8accb13da48113f4634e729a71d335",
+            "path": null
+          }
+        },
+        "language_servers": {
+          "dart": {
+            "language": "Dart",
+            "languages": [
+              "Dart"
+            ],
+            "language_ids": {},
+            "code_action_kinds": null
+          }
+        },
+        "context_servers": {},
+        "slash_commands": {},
+        "indexed_docs_providers": {},
+        "snippets": null,
+        "capabilities": []
       },
       "dev": false
     },
@@ -61,7 +109,8 @@
         "context_servers": {},
         "slash_commands": {},
         "indexed_docs_providers": {},
-        "snippets": null
+        "snippets": null,
+        "capabilities": []
       },
       "dev": false
     },
@@ -126,7 +175,8 @@
         "context_servers": {},
         "slash_commands": {},
         "indexed_docs_providers": {},
-        "snippets": null
+        "snippets": null,
+        "capabilities": []
       },
       "dev": false
     },
@@ -171,7 +221,8 @@
         "context_servers": {},
         "slash_commands": {},
         "indexed_docs_providers": {},
-        "snippets": null
+        "snippets": null,
+        "capabilities": []
       },
       "dev": false
     },
@@ -213,7 +264,8 @@
         "context_servers": {},
         "slash_commands": {},
         "indexed_docs_providers": {},
-        "snippets": null
+        "snippets": null,
+        "capabilities": []
       },
       "dev": false
     },
@@ -255,7 +307,8 @@
         "context_servers": {},
         "slash_commands": {},
         "indexed_docs_providers": {},
-        "snippets": null
+        "snippets": null,
+        "capabilities": []
       },
       "dev": false
     },
@@ -263,7 +316,7 @@
       "manifest": {
         "id": "scss",
         "name": "SCSS",
-        "version": "0.0.4",
+        "version": "0.0.5",
         "schema_version": 1,
         "description": "SCSS support",
         "repository": "https://github.com/bajrangCoder/zed-scss",
@@ -303,7 +356,8 @@
         "context_servers": {},
         "slash_commands": {},
         "indexed_docs_providers": {},
-        "snippets": null
+        "snippets": null,
+        "capabilities": []
       },
       "dev": false
     },
@@ -345,7 +399,8 @@
         "context_servers": {},
         "slash_commands": {},
         "indexed_docs_providers": {},
-        "snippets": null
+        "snippets": null,
+        "capabilities": []
       },
       "dev": false
     },
@@ -388,7 +443,8 @@
         "context_servers": {},
         "slash_commands": {},
         "indexed_docs_providers": {},
-        "snippets": null
+        "snippets": null,
+        "capabilities": []
       },
       "dev": false
     }
@@ -429,6 +485,18 @@
   },
   "icon_themes": {},
   "languages": {
+    "Dart": {
+      "extension": "dart",
+      "path": "languages/dart",
+      "matcher": {
+        "path_suffixes": [
+          "dart"
+        ],
+        "first_line_pattern": null
+      },
+      "hidden": false,
+      "grammar": "dart"
+    },
     "Diff": {
       "extension": "git-firefly",
       "path": "languages/diff",

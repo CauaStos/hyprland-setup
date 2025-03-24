@@ -80,6 +80,7 @@ Singleton {
 
         onLoaded: {
             const colors_object = JSON.parse(jsonFile.text())
+
             colors.error = colors_object.error;
             colors.error_container = colors_object.error_container;
             colors.inverse_on_surface = colors_object.inverse_on_surface;

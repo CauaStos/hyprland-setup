@@ -192,9 +192,9 @@ folder_colors = {
 color_distances = dict()
 
 for folder_color in folder_colors:
-    print("_______________________________")
+    #print("_______________________________")
 
-    print(f"Comparing input color {input_color_rgb} to {folder_color} ({folder_colors[folder_color]}) \n")
+    #print(f"Comparing input color {input_color_rgb} to {folder_color} ({folder_colors[folder_color]}) \n")
 
     input_R = input_color_rgb[0]
     input_G = input_color_rgb[1]
@@ -206,21 +206,21 @@ for folder_color in folder_colors:
 
     input_color_srgb = sRGBColor(input_R/255, input_G/255, input_B/255);
     folder_color_srgb = sRGBColor(folder_R/255, folder_G/255, folder_B/255);
-    print(F"input_color_srgb: {input_color_srgb}")
-    print(F"folder_color_srgb: {folder_color_srgb} \n")
+    #print(F"input_color_srgb: {input_color_srgb}")
+    #print(F"folder_color_srgb: {folder_color_srgb} \n")
 
     input_color_lab = convert_color(input_color_srgb, LabColor)
     folder_color_lab = convert_color(folder_color_srgb, LabColor)
-    print(f"Comparing input_color_lab ({input_color_lab}) to {folder_color} (lab) ({folder_color_lab})")
+    #print(f"Comparing input_color_lab ({input_color_lab}) to {folder_color} (lab) ({folder_color_lab})")
 
     color_distance = lab_color_distance(input_color_lab, folder_color_lab);
 
     color_distances[folder_color] = color_distance
 
-    print(f"\nDistance: {color_distance})")
+    #print(f"\nDistance: {color_distance})")
 
 
-print("_______________________________ \n")
+#print("_______________________________ \n")
 least_different_color = min(color_distances.items(), key=lambda x: x[1])
 print(f"Most equal color is: {least_different_color[0]} with a difference of {least_different_color[1]}")
 

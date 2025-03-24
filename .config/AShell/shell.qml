@@ -7,7 +7,6 @@ import "./config/"
 
 
 ShellRoot {
-
     Bar {}
     Island {}
     Switcher {}

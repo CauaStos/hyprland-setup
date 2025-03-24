@@ -125,8 +125,8 @@ for color in base_colors:
 
 #black0 and white0 is the first color of the palette
 #black1 and white1 is the second color of the palette
-
-if color_distances["black0"] < 15 and color_distances["white1"] < 15:
+print(f"COLORS DISTANCES: black:{color_distances['black0']}, white:{color_distances["white1"]} ")
+if color_distances["black0"] < 10 or color_distances["white1"] < 10:
     print("Monochrome wallpaper detected! Applying 'scheme-fidelity'")
     subprocess.run(["matugen","-t", "scheme-fidelity", "color", "rgb", f"rgb{input_colors[0]}", "-m", color_theme], check=True)
 else:
