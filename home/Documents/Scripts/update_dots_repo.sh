@@ -23,7 +23,7 @@ filter=(--filter '+ .local/' --filter '+ .local/share/' --filter '+ .local/share
 rsync $RSYNC_OPTS "${filter[@]}" ~/ $DOTFILES_PATH/home/
 
 #Zen Chrome and profile setup
-filter=(--filter '+ chrome/***' --filter '+ zen-themes.json' --filter '- *')
+filter=(--filter '+ Zen/***' --filter '+ storage/' --filter '- *')
 rsync $RSYNC_OPTS -v "${filter[@]}" ~/Documents/ZenConfig/ $DOTFILES_PATH/home/.zen/Zen/
 
 

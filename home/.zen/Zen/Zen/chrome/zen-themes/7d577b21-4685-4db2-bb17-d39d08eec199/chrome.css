@@ -1,0 +1,7 @@
+@-moz-document url-prefix("chrome:") {
+  
+  .browserContainer {
+      clip-path: inset(0 round var(--zen-native-inner-radius));
+  }
+  
+}
