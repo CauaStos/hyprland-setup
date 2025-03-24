@@ -22,6 +22,11 @@ echo "# Copying home files and folders..."
 filter=(--filter '+ .local/' --filter '+ .local/share/' --filter '+ .local/share/themes/***' --filter '+ .local/share/zed/' --filter '+ .local/share/zed/extensions/***' --filter '- *')
 rsync $RSYNC_OPTS "${filter[@]}" ~/ $DOTFILES_PATH/home/
 
+#Zen Chrome and profile setup
+filter=(--filter '+ chrome/***' --filter '+ zen-themes.json' --filter '- *')
+rsync $RSYNC_OPTS "${filter[@]}" ~/Documents/ZenConfig/ $DOTFILES_PATH/home/.zen/Zen/
+
+
 #Document Folders Copy
 echo "## Copying 'Documents' folders..."
 
