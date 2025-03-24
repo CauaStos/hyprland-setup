@@ -24,7 +24,7 @@ rsync $RSYNC_OPTS "${filter[@]}" ~/ $DOTFILES_PATH/home/
 
 #Zen Chrome and profile setup
 filter=(--filter '+ chrome/***' --filter '+ zen-themes.json' --filter '- *')
-rsync $RSYNC_OPTS "${filter[@]}" ~/Documents/ZenConfig/ $DOTFILES_PATH/home/.zen/Zen/
+rsync $RSYNC_OPTS -v "${filter[@]}" ~/Documents/ZenConfig/ $DOTFILES_PATH/home/.zen/Zen/
 
 
 #Document Folders Copy
