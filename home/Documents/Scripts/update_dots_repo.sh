@@ -22,13 +22,6 @@ echo "# Copying home files and folders..."
 filter=(--filter '+ .local/' --filter '+ .local/share/' --filter '+ .local/share/themes/***' --filter '+ .local/share/zed/' --filter '+ .local/share/zed/extensions/***' --filter '- *')
 rsync $RSYNC_OPTS "${filter[@]}" ~/ $DOTFILES_PATH/home/
 
-#Zen Chrome and profile setup
-filter=(--filter '+ chrome/***' --filter '+ zen-themes.json' --filter '- *')
-rsync $RSYNC_OPTS "${filter[@]}" ~/.zen/Zen/ $DOTFILES_PATH/home/.zen/Zen/
-
-mkdir $DOTFILES_PATH/.zen/Zen/storage #create storage folder or else the profile is not recognized.
-
-
 #Document Folders Copy
 echo "## Copying 'Documents' folders..."
 
