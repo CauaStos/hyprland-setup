@@ -11,7 +11,7 @@
 #--filter: Filters files, preferred over --include and --exclude.
 
 RSYNC_OPTS="-a --checksum --mkpath"
-DOTFILES_PATH=~/Documents/dotfiles/
+DOTFILES_PATH=~/Documents/dotfiles
 
 #cd into the dotfiles directory so git status --porcelain doesnt return nothing
 cd $DOTFILES_PATH || exit
@@ -21,6 +21,13 @@ echo "# Copying home files and folders..."
 
 filter=(--filter '+ .local/' --filter '+ .local/share/' --filter '+ .local/share/themes/***' --filter '+ .local/share/zed/' --filter '+ .local/share/zed/extensions/***' --filter '- *')
 rsync $RSYNC_OPTS "${filter[@]}" ~/ $DOTFILES_PATH/home/
+
+#Zen Chrome and profile setup
+filter=(--filter '+ chrome/***' --filter '+ zen-themes.json' --filter '- *')
+rsync $RSYNC_OPTS "${filter[@]}" ~/.zen/Zen/ $DOTFILES_PATH/home/.zen/Zen/
+
+mkdir $DOTFILES_PATH/.zen/Zen/storage #create storage folder or else the profile is not recognized.
+
 
 #Document Folders Copy
 echo "## Copying 'Documents' folders..."
@@ -45,7 +52,6 @@ rsync $RSYNC_OPTS "${filter[@]}" ~/.config/ $DOTFILES_PATH/.config
 echo "# Moving install script to project's root"
 
 cp ./home/Documents/Scripts/install_dots.sh ./
-
 
 if [[ $(git status --porcelain) ]]; then
     echo "pushing changes"
