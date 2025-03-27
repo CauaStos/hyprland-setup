@@ -52,8 +52,7 @@ import "./Widgets/Workspace"
                 Rectangle { //Center container
                     Layout.fillWidth: true
                     Layout.fillHeight: true
-
-
+                    color: 'transparent'
                     RowLayout {
                         anchors.fill: parent
                         spacing: BarConfig.inner_container_margin
@@ -61,17 +60,19 @@ import "./Widgets/Workspace"
                         Rectangle { //Clock
                             Layout.fillWidth: true
                             Layout.fillHeight: true
-                            color: 'red'
+                            color: 'transparent'
+
                         }
                         Rectangle { //Island
                             implicitWidth: IslandConfig.bar_island_width
                             Layout.fillHeight: true
-                            color: 'red'
+                            color: 'transparent'
+
                         }
                         Rectangle { //Utilities
                             Layout.fillWidth: true
                             Layout.fillHeight: true
-                            color: 'red'
+                            color: 'transparent'
                         }
                     }
 
@@ -80,7 +81,7 @@ import "./Widgets/Workspace"
                 Rectangle { //Right Container
                     Layout.fillWidth: true
                     Layout.fillHeight: true
-
+                    color: 'transparent'
                     //Tray: Coming Soon™
 
                 }
