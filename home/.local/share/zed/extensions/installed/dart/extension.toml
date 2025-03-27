@@ -1,12 +1,14 @@
 id = "dart"
 name = "Dart"
-version = "0.1.3"
+version = "0.2.0"
 schema_version = 1
 description = "Dart support."
 repository = "https://github.com/zed-extensions/dart"
-authors = ["Abdullah Alsigar <abdullah.alsigar@gmail.com>", "Flo <flo80@users.noreply.github.com>", "ybbond <hi@ybbond.id>"]
+authors = ["Abdullah Alsigar <abdullah.alsigar@gmail.com>", "Flo <flo80@users.noreply.github.com>", "ybbond <hi@ybbond.id>", "nielsenko <kasper@byolimit.com>"]
 themes = []
+icon_themes = []
 languages = ["languages/dart"]
+capabilities = []
 
 [lib]
 kind = "Rust"
@@ -14,13 +16,15 @@ version = "0.1.0"
 
 [grammars.dart]
 repository = "https://github.com/UserNobody14/tree-sitter-dart"
-rev = "6da46473ab8accb13da48113f4634e729a71d335"
+rev = "80e23c07b64494f7e21090bb3450223ef0b192f4"
 
 [language_servers.dart]
 language = "Dart"
 languages = ["Dart"]
 
 [language_servers.dart.language_ids]
+
+[context_servers]
 
 [slash_commands]
 

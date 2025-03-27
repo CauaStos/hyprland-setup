@@ -8791,11 +8791,16 @@
     }
 
     /* yt-No left side guide */
-    ytd-mini-guide-renderer {
-        display: none !important;
+    ytd-app {
+        --app-drawer-content-container-background-color: transparent !important;
+        --yt-spec-base-background: transparent !important;
     }
-    #page-manager {
-        margin-left: 0 !important;
+    tp-yt-app-drawer {
+        background: transparent !important;
+    }
+
+    ytd-mini-guide-renderer {
+        background: transparent !important;
     }
 
     /* yt-Transparent header */
@@ -8814,17 +8819,10 @@
 
     /* yt-auto hide header */
     body #masthead-container:not(:has(.ytSearchboxComponentInputBoxHasFocus)) {
-        top: -40px !important;
-        opacity: 0 !important;
+        background: rgba(0, 0, 0, 1); /* Semi-transparent background */
+        backdrop-filter: blur(10px); /* Apply blur effect */
+        -webkit-backdrop-filter: blur(10px); /* Safari support */
         transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95) !important;
-        &:hover {
-            opacity: 1 !important;
-            top: 0 !important;
-        }
-    }
-
-    :root {
-        --ytd-toolbar-height: 0px !important;
     }
 
     /* yt-no voice search */

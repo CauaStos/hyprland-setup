@@ -1,10 +1,10 @@
-[01:24:08.149][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9/main.lua:68]: Lua Lsp startup, root: 	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9
-[01:24:08.149][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9/main.lua:69]: ROOT:	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9
-[01:24:08.149][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9/main.lua:70]: LOGPATH:	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9/log
-[01:24:08.149][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9/main.lua:71]: METAPATH:	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9/meta
-[01:24:08.149][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9/main.lua:72]: VERSION:	3.13.9
-[01:24:08.167][info] [#0:script/proto/proto.lua:260]: Listen Mode: stdio
-[01:24:08.167][info] [#0:script/service/service.lua:145]: 
+[07:18:08.707][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9/main.lua:68]: Lua Lsp startup, root: 	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9
+[07:18:08.707][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9/main.lua:69]: ROOT:	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9
+[07:18:08.707][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9/main.lua:70]: LOGPATH:	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9/log
+[07:18:08.707][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9/main.lua:71]: METAPATH:	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9/meta
+[07:18:08.707][info] [#0:/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9/main.lua:72]: VERSION:	3.13.9
+[07:18:08.724][info] [#0:script/proto/proto.lua:260]: Listen Mode: stdio
+[07:18:08.724][info] [#0:script/service/service.lua:145]: 
 ========= Medical Examination Report =========
     --------------- Memory ---------------
         Total: 2.258 MB
@@ -26,7 +26,7 @@
         Holdon:   0
         Waiting:  0
 ==============================================
-[01:24:08.270][info] [#0:script/client.lua:657]: Client init	{
+[07:18:08.827][info] [#0:script/client.lua:657]: Client init	{
   capabilities = {
     experimental = {
       localDocs = true,
@@ -117,6 +117,9 @@
         dynamicRegistration = true,
         relativePatternSupport = true
       },
+      executeCommand = {
+        dynamicRegistration = false
+      },
       fileOperations = {
         didRename = true,
         dynamicRegistration = false,
@@ -136,7 +139,7 @@
   },
   clientInfo = {
     name = "Zed",
-    version = "0.177.9"
+    version = "0.178.5"
   },
   rootUri = "file:///home/astro/.config/matugen",
   workspaceFolders = { {
@@ -144,7 +147,7 @@
       uri = "file:///home/astro/.config/matugen"
     } }
 }
-[01:24:08.270][info] [#0:script/language.lua:137]: VSC language: nil
-[01:24:08.270][info] [#0:script/language.lua:138]: LS  language: en-us
-[01:24:08.270][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/astro/.config/matugen
-[01:24:08.271][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9/log/file_home_astro_.config_matugen.log
+[07:18:08.827][info] [#0:script/language.lua:137]: VSC language: nil
+[07:18:08.827][info] [#0:script/language.lua:138]: LS  language: en-us
+[07:18:08.827][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/astro/.config/matugen
+[07:18:08.827][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/astro/.local/share/zed/extensions/work/lua/lua-language-server-3.13.9/log/file_home_astro_.config_matugen.log
