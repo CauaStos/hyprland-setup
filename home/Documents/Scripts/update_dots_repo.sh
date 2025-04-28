@@ -41,11 +41,6 @@ filter=(--filter '+ AShell/***' --filter '+ hypr/***' --filter '+ fish/***' --fi
 
 rsync $RSYNC_OPTS "${filter[@]}" ~/.config/ $DOTFILES_PATH/.config
 
-#echo "Copying SDDM theme..."
-
-#rsync -av --checksum --mkpath /usr/share/sddm/themes/where_is_my_sddm_theme/ ~/Documents/dotfiles/sddm/themes/where_is_my_sddm_theme/
-
-
 echo "# Moving install script to project's root"
 
 cp ./home/Documents/Scripts/install_dots.sh ./
