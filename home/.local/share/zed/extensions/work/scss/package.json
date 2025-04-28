@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "some-sass-language-server": "2.1.2",
-    "vscode-langservers-extracted": "4.10.0"
-  }
-}
