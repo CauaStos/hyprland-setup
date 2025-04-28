@@ -185,7 +185,7 @@
       "manifest": {
         "id": "html",
         "name": "HTML",
-        "version": "0.1.5",
+        "version": "0.2.1",
         "schema_version": 1,
         "description": "HTML support.",
         "repository": "https://github.com/zed-industries/zed",
@@ -213,8 +213,8 @@
             "language": "HTML",
             "languages": [],
             "language_ids": {
-              "HTML": "html",
-              "CSS": "css"
+              "CSS": "css",
+              "HTML": "html"
             },
             "code_action_kinds": null
           }
@@ -317,7 +317,7 @@
       "manifest": {
         "id": "scss",
         "name": "SCSS",
-        "version": "0.0.5",
+        "version": "0.0.6",
         "schema_version": 1,
         "description": "SCSS support",
         "repository": "https://github.com/bajrangCoder/zed-scss",
