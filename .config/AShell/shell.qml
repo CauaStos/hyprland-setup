@@ -5,11 +5,4 @@ import "./Widgets/Switcher/"
 ShellRoot {
     Bar {}
     Switcher {}
-
-
-
-
-
-
-
 }
