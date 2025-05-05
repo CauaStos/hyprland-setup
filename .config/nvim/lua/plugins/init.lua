@@ -12,6 +12,10 @@ return {
       require "configs.lspconfig"
     end,
   },
+  {
+    'stevearc/conform.nvim',
+    opts = {},
+  }
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 

@@ -16,10 +16,10 @@ cd .. #we 'cd ..' since we are inside of paru/
 echo "Installing necessary packages"
 
 ### Std
-sudo pacman -S --noconfirm hyprland unzip unrar sddm polkit-gnome swww hypridle nwg-look hyprlock zed thunar hyprpicker macchina zoxide starship mission-center pipewire pipewire-pulse pipewire-audio pipewire-alsa fish rsync file-roller qt5ct qt6ct gnome-keyring wtype wget fastfetch vlc
+sudo pacman -S --noconfirm hyprland unzip unrar sddm polkit-gnome swww hypridle nwg-look hyprlock zed thunar hyprpicker macchina zoxide starship mission-center pipewire pipewire-pulse pipewire-audio pipewire-alsa fish rsync file-roller qt5ct qt6ct gnome-keyring wtype wget fastfetch vlc ripgrep
 
 ### AUR
-paru -S --noconfirm spicetify-cli zen-browser-bin spotify vesktop opentabletdriver hyprshot appimagelauncher matugen-bin wezterm-git
+paru -S --noconfirm spicetify-cli zen-browser-bin spotify vesktop opentabletdriver hyprshot appimagelauncher matugen-bin wezterm-git apple-fonts 
 
 
 ## Changing default shell
