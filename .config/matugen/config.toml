@@ -2,7 +2,6 @@
 command = "echo"
 set = false
 
-
 [templates.gtk3]
 input_path = '~/.config/matugen/templates/gtk3.css'
 output_path = '~/.local/share/themes/Material/gtk-3.0/gtk.css'
@@ -58,3 +57,7 @@ output_path = '~/.config/qt5ct/Material.conf'
 [templates.qt6]
 input_path = '~/.config/matugen/templates/qtct-colors.conf'
 output_path = '~/.config/qt6ct/Material.conf'
+
+[templates.nvim]
+input_path = '~/.config/nvim/pywal/matugen.lua'
+output_path = '~/.cache/wal/base46-dark.lua'

@@ -4,11 +4,11 @@ import Quickshell.Widgets
 import QtQuick
 import QtQuick.Controls
 import QtQuick.Layouts
-import "../globals/components/"
-import "../../config/"
 import Quickshell.Hyprland
 import Quickshell.Wayland
 import Qt5Compat.GraphicalEffects
+import "../../config/"
+import "../globals/components/"
 
 Scope {
 
@@ -18,7 +18,11 @@ Scope {
         //Properties
         property bool isVisible: false
 
-        screen: Quickshell.screens[0] // Only open on primary screen.
+        screen: Quickshell.screens.forEach((screen, index) => {
+            const preferred_monitor = "DP-3"
+            if(screen.name == preferred_monitor) return index
+        }) // Only open on primary screen.
+
         WlrLayershell.layer: WlrLayer.Overlay
         width: grid_container.width || 1
         height: grid_container.height +  padding || 1

@@ -1,15 +1,12 @@
 import Quickshell
-import Quickshell.Io
 import QtQuick
-import QtQuick.Controls
-import QtQuick.Layouts
 
 
     Text{
         id: styledtext
         property int weight: 600
         font{
-            family: "Quicksand"
+            family: "SF Pro Text"
             weight: styledtext.weight
             hintingPreference: Font.PreferNoHinting
         }

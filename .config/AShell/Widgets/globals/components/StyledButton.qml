@@ -14,7 +14,7 @@ import QtQuick.Layouts
 
         property int weight: 600
         font{
-            family: "Quicksand"
+            family: "SF Pro Text"
             weight: styledButton.weight
         }
         text: "grow/shrink"
