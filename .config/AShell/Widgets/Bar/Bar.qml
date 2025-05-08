@@ -10,7 +10,8 @@ import "../../config/"
 import "../globals/components/"
 import "../services/"
 import "./Island/"
-import "./modules"
+import "./modules/Left_Bar/"
+import "./modules/Right_Bar/"
 Scope {
 
     PanelWindow {//Bar
@@ -44,22 +45,17 @@ Scope {
             }
             height: 50
 
+            LeftBar {}
+
+            //Island {}
+
             Rectangle{
                 Layout.fillWidth: true
                 Layout.fillHeight: true
-                Layout.maximumHeight: bar.height
                 radius: 10
                 color: Colors.surface
-
-                Row{
-                    anchors.centerIn: parent.verticalCenter
-
-                    Activity {}
-                    Workspaces {}
-                }
+                Layout.maximumHeight: bar.height
             }
-
-            Island {}
 
             Rectangle{
                 Layout.fillWidth: true

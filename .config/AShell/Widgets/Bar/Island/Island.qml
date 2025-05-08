@@ -41,8 +41,8 @@ import "../../services/"
                 running: true
                 repeat: false
                 onTriggered: {
-                    //island.push(playerComponent);
-                    console.log("oiii")
+                    island.push(clockComponent);
+
                 }
             }
 
@@ -94,21 +94,18 @@ import "../../services/"
 
 
                 }
-
-
             }
 
             Component {
-                id: launcherComponent
-                Rectangle {
-                    color: "#225"
-                    anchors.fill: parent
-                    radius: 10
-                    Text {
-                        text: "🚀 Launcher"
-                        anchors.centerIn: parent
+                id: clockComponent
+                    StyledText {
+                        SystemClock {
+                            id: clock
+                        }
+                        verticalAlignment: Qt.AlignVCenter
+                        text: Qt.formatDateTime(clock.date, "ddd, MMM d • HH:mm")
                     }
-                }
+
             }
 
             Component {
