@@ -11,11 +11,11 @@ import "../../../../../config/"
 import "../../../../globals/components/"
 import "../../../../services/"
 
-    RowLayout { //Island wrapper for background during transition
+    RowLayout {
         id: workspaceComponent
-        Layout.leftMargin: 15
+        Layout.leftMargin: 10
 
-        spacing: 5
+        spacing: 0
         Layout.fillHeight: true
 
         property var workspaces: (() =>{
@@ -32,28 +32,29 @@ import "../../../../services/"
 
         Repeater {
             id: repeater
-            Layout.fillHeight: true
-            Layout.alignment: Qt.AlignVCenter
-
 
             model: workspaceComponent.workspaces
             delegate: Rectangle {
                 id: workspace_indicator
-                Layout.alignment: Qt.AlignVCenter
-
                 implicitWidth: workspaceComponent.focused_workspace == index ? 80 : indicator_width
                 implicitHeight: 15
-                radius: 10
-                color: Colors.primary
+                color: 'transparent'
 
                 required property var modelData
                 required property int index
 
-                property int indicator_width: workspaceComponent.workspaces[index].enabled ? 15 : 0
+                Rectangle{
+                    color: Colors.primary
+                    anchors.fill: parent
+                    anchors.leftMargin: 5
+                    radius: 10
+                }
+
+                property int indicator_width: workspaceComponent.workspaces[index].enabled ? 20 : 1
 
                 Component.onCompleted: {
                     fetchWorkspaces.fetched.connect(() => {
-                        indicator_width = workspaceComponent.workspaces[index].enabled ? 15 : 0
+                        indicator_width = workspaceComponent.workspaces[index].enabled ? 20 : 0
                     })
                 }
 
@@ -99,6 +100,12 @@ import "../../../../services/"
                 if(event.name == "workspacev2") {
                     fetchWorkspaces.running = true
                     workspaceComponent.focused_workspace = parseInt(event.data.split(",")[0]) - 1
+                }
+
+                if(event.name == "destroyworkspacev2"){
+                    fetchWorkspaces.running = true
+                    const destroyed_workspace = parseInt(event.data.split(",")[0]) - 1
+                    workspaceComponent.workspaces[destroyed_workspace].enabled = false
                 }
 
                 if(event.name == "focusedmonv2"){

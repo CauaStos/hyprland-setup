@@ -2,6 +2,7 @@ set fish_greeting
 abbr --add zed zeditor
 eval "$(starship init fish)"
 eval "$(zoxide init fish)"
+enable_transience
 #sleep so fastfetch doesnt bug width
 
 if status -i;

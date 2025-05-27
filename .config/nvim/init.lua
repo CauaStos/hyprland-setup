@@ -21,6 +21,14 @@ require("lazy").setup({
     branch = "v2.5",
     import = "nvchad.plugins",
   },
+  {
+    "nvim-flutter/flutter-tools.nvim",
+    lazy = false,
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "stevearc/dressing.nvim", -- optional for vim.ui.select
+    },
+  },
 
   { import = "plugins" },
 }, lazy_config)
@@ -36,22 +44,22 @@ vim.schedule(function()
   require "mappings"
 end)
 
-os.execute("python ~/.config/nvim/pywal/chadwal.py &> /dev/null &")
+os.execute "python ~/.config/nvim/pywal/chadwal.py &> /dev/null &"
 
 local autocmd = vim.api.nvim_create_autocmd
 
 autocmd("Signal", {
   pattern = "SIGUSR1",
   callback = function()
-    require('nvchad.utils').reload()
-  end
+    require("nvchad.utils").reload()
+  end,
 })
 
 require("lspconfig").qmlls.setup {
-  cmd = {"qmlls6", "-E"}
+  cmd = { "qmlls6", "-E" },
 }
 
-require("conform").setup({
+require("conform").setup {
   formatters_by_ft = {
     lua = { "stylua" },
     -- Conform will run multiple formatters sequentially
@@ -60,11 +68,16 @@ require("conform").setup({
     rust = { "rustfmt", lsp_format = "fallback" },
     -- Conform will run the first available formatter
     javascript = { "prettierd", "prettier", stop_after_first = true },
-    qml = {"prettier"}
+    qml = { "prettier" },
   },
   format_on_save = {
-      -- These options will be passed to conform.format()
-      timeout_ms = 500,
-      lsp_format = "fallback",
-    },
-})
+    -- These options will be passed to conform.format()
+    timeout_ms = 500,
+    lsp_format = "fallback",
+  },
+}
+
+-- lsp config --
+local lsps = { "clangd", "cmake", "lua_ls" }
+vim.lsp.enable(lsps)
+require("flutter-tools").setup {} -- use defaults
