@@ -1,0 +1,58 @@
+/* GTK NAMED COLORS ---------------- use responsibly! */
+@define-color accent_color #8bd0ef;
+@define-color accent_fg_color #003546;
+@define-color accent_bg_color #004d64;
+@define-color destructive_color #ffb4ab;
+@define-color destructive_bg_color #690005;
+@define-color destructive_fg_color #ffdad6;
+@define-color success_color #b4cad6;
+@define-color success_bg_color #354a53;
+@define-color success_fg_color #dfe3e7;
+@define-color warning_color #c6c2ea;
+@define-color warning_bg_color #454364;
+@define-color warning_fg_color #dfe3e7;
+@define-color error_color #ffb4ab;
+@define-color error_bg_color #690005;
+@define-color error_fg_color #ffdad6;
+@define-color window_bg_color #0f1417;
+@define-color window_fg_color #dfe3e7;
+@define-color view_bg_color #0f1417;
+@define-color view_fg_color #dfe3e7;
+@define-color headerbar_bg_color #0f1417;
+@define-color headerbar_fg_color #dfe3e7;
+@define-color headerbar_border_color #8a9297;
+@define-color headerbar_backdrop_color #262b2d;
+@define-color headerbar_shade_color #303538;
+@define-color sidebar_bg_color #0f1417;
+@define-color sidebar_fg_color #dfe3e7;
+@define-color sidebar_backdrop_color #262b2d;
+@define-color card_bg_color #0f1417;
+@define-color card_fg_color #dfe3e7;
+@define-color card_shade_color #303538;
+@define-color thumbnail_bg_color #ff0000;
+@define-color thumbnail_fg_color #ff0000;
+@define-color dialog_bg_color #1b2023;
+@define-color dialog_fg_color #dfe3e7;
+@define-color popover_bg_color #1b2023;
+@define-color popover_fg_color #dfe3e7;
+@define-color shade_color rgba(0, 0, 0, 0.36);
+@define-color scrollbar_outline_color #8bd0ef;
+
+
+@define-color headerbar_darker_shade_color rgba(0, 0, 0, 0.12);
+@define-color sidebar_shade_color rgba(0, 0, 0, 0.07);
+@define-color sidebar_border_color rgba(0, 0, 0, 0.07);
+@define-color secondary_sidebar_bg_color #f3f3f3;
+@define-color secondary_sidebar_fg_color rgba(0, 0, 0, 0.8);
+@define-color secondary_sidebar_backdrop_color #f6f6f6;
+@define-color secondary_sidebar_shade_color rgba(0, 0, 0, 0.07);
+@define-color secondary_sidebar_border_color rgba(0, 0, 0, 0.07);
+@define-color popover_shade_color rgba(0, 0, 0, 0.07);
+
+
+@import "../gtk-3.0/libadwaita.css";
+@import "../gtk-3.0/libadwaita-tweaks.css";
+
+* {
+    font-weight: 500;
+}

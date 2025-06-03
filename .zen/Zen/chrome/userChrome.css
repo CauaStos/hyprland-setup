@@ -1,0 +1,32 @@
+/*
+Pywalzen Stuff
+*/
+:root {
+    --zen-primary-color: var(--lwt-accent-color) !important;
+    --zen-colors-primary: var(--tab-loading-fill) !important;
+    --zen-colors-secondary: var(--tab-loading-fill) !important;
+    --toolbarbutton-icon-fill: var(--tab-loading-fill) !important;
+
+    --zen-colors-tertiary: var(--lwt-accent-color) !important;
+    --zen-main-browser-background: var(--lwt-accent-color) !important;
+    --zen-themed-toolbar-bg: var(--lwt-accent-color) !important;
+    --arrowpanel-background: var(--lwt-accent-color) !important;
+    #urlbar[breakout-extend="true"] > #urlbar-background {
+        background: var(--lwt-accent-color) !important;
+    }
+}
+
+#urlbar:not([focused="true"]):not([breakout-extend="true"])
+    > #urlbar-background {
+    background: color-mix(
+        in srgb,
+        light-dark(#fff, var(--zen-colors-secondary)) 35%,
+        transparent 65%
+    ) !important;
+}
+
+#commonDialogWindow {
+    background-color: black !important;
+}
+
+/*Browser*/

@@ -1,0 +1,5 @@
+@-moz-document domain("notion.so") {
+  * {
+    scrollbar-width: none
+  }
+}
