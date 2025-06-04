@@ -18,6 +18,8 @@ _darcs
 .+~          # emacs backup files
 \#.*\#       # emacs autosave files
 
+
+^/.*\.sh # ignore .sh files
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
