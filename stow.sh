@@ -1,5 +1,5 @@
 #!/bin/bash
 
 cd $HOME/dotfiles/
-stow . --adopt
+stow . --adopt --no-folding
 git restore .
