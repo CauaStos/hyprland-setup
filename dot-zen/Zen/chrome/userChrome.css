@@ -2,7 +2,7 @@
 Pywalzen Stuff
 */
 :root {
-  --zen-primary-color: var(--lwt-accent-color) !important;
+  --zen-primary-color: var(--toolbar-bgcolor) !important;
   --zen-colors-primary: var(--tab-loading-fill) !important;
   --zen-colors-secondary: var(--tab-loading-fill) !important;
   --toolbarbutton-icon-fill: var(--tab-loading-fill) !important;
@@ -25,6 +25,10 @@ Pywalzen Stuff
   ) !important;
 }
 
-#commonDialogWindow {
-  background-color: black !important;
+.urlbarView-row {
+  &[selected] {
+    & .urlbarView-favicon {
+      background-color: var(--toolbar-bgcolor) !important;
+    }
+  }
 }
