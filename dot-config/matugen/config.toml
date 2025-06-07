@@ -1,0 +1,63 @@
+[config.wallpaper]
+command = "echo"
+set = false
+
+[templates.gtk3]
+input_path = '~/.config/matugen/templates/gtk3.css'
+output_path = '~/.local/share/themes/Material/gtk-3.0/gtk.css'
+post_hook = "gsettings set org.gnome.desktop.interface gtk-theme ''; gsettings set org.gnome.desktop.interface gtk-theme Material; echo 'refreshed gtk'"
+
+[templates.gtk4]
+input_path = '~/.config/matugen/templates/gtk4.css'
+output_path = '~/.local/share/themes/Material/gtk-4.0/gtk.css'
+post_hook = "gsettings set org.gnome.desktop.interface gtk-theme ''; gsettings set org.gnome.desktop.interface gtk-theme Material; echo 'refreshed gtk'"
+
+[templates.pywalfox]
+input_path = '~/.config/matugen/templates/pywalfox-colors.json'
+output_path = '~/.cache/wal/colors.json'
+post_hook = 'pywalfox update'
+#0 - background
+#10 - accent primary
+#13 - accent secondary
+#15 - text
+
+[templates.zed]
+input_path = '~/.config/matugen/templates/zed.json'
+output_path = '~/.config/zed/themes/material.json'
+
+[templates.vesktop]
+input_path = '~/.config/matugen/templates/discord.css'
+output_path = '~/.config/vesktop/themes/material.css'
+
+[templates.hyprland]
+input_path = '~/.config/matugen/templates/hyprland-colors.conf'
+output_path = '~/.config/hypr/colors.conf'
+post_hook = 'hyprctl reload'
+
+[templates.spicetify]
+input_path = '~/.config/matugen/templates/spicetify.ini'
+output_path = '~/.config/spicetify/Themes/text/color.ini'
+
+[templates.wezterm]
+input_path = '~/.config/matugen/templates/wezterm.lua'
+output_path = '~/.wezterm.lua'
+
+[templates.macchina]
+input_path = '~/.config/matugen/templates/macchina.toml'
+output_path = '~/.config/macchina/themes/Material.toml'
+
+[templates.shell_color]
+input_path = '~/.config/matugen/templates/ags.json'
+output_path = '~/.cache/matugen/colors.json'
+
+[templates.qt5]
+input_path = '~/.config/matugen/templates/qtct-colors.conf'
+output_path = '~/.config/qt5ct/Material.conf'
+
+[templates.qt6]
+input_path = '~/.config/matugen/templates/qtct-colors.conf'
+output_path = '~/.config/qt6ct/Material.conf'
+
+[templates.nvim]
+input_path = '~/.config/nvim/pywal/matugen.lua'
+output_path = '~/.cache/wal/base46-dark.lua'

@@ -1,0 +1,22 @@
+{
+  "wallpaper": "{{image}}",
+  "alpha": "100",
+  "colors": {
+    "color0": "{{colors.surface.default.hex}}",
+    "color1": "{{colors.surface_container.default.hex}}",
+    "color2": "{{colors.surface_container_highest.default.hex}}",
+    "color3": "{{colors.outline.default.hex}}",
+    "color4": "#FF0000",
+    "color5": "#FF0000",
+    "color6": "#FF0000",
+    "color7": "#FF0000",
+    "color8": "#FF0000",
+    "color9": "#FF0000",
+    "color10": "{{colors.primary.default.hex}}",
+    "color11": "#FF0000",
+    "color12": "#FF0000",
+    "color13": "{{colors.secondary.default.hex}}",
+    "color14": "#FF0000",
+    "color15": "{{colors.on_surface.default.hex}}"
+  }
+}
