@@ -2,17 +2,24 @@
 Pywalzen Stuff
 */
 :root {
+  --surface: var(--lwt-accent-color);
+  --surface-transparent: color-mix(
+    in srgb,
+    var(--surface) 90%,
+    transparent 10%
+  );
   --zen-primary-color: var(--toolbar-bgcolor) !important;
   --zen-colors-primary: var(--tab-loading-fill) !important;
   --zen-colors-secondary: var(--tab-loading-fill) !important;
   --toolbarbutton-icon-fill: var(--tab-loading-fill) !important;
 
-  --zen-colors-tertiary: var(--lwt-accent-color) !important;
-  --zen-main-browser-background: var(--lwt-accent-color) !important;
-  --zen-themed-toolbar-bg: var(--lwt-accent-color) !important;
-  --arrowpanel-background: var(--lwt-accent-color) !important;
+  --zen-colors-tertiary: var(--surface-transparent) !important;
+  --zen-main-browser-background: var(--surface-transparent) !important;
+  --zen-themed-toolbar-bg: var(--surface-transparent) !important;
+
+  --arrowpanel-background: var(--surface-transparent) !important;
   #urlbar[breakout-extend="true"] > #urlbar-background {
-    background: var(--lwt-accent-color) !important;
+    background: var(--surface-transparent) !important;
   }
 }
 
@@ -29,6 +36,14 @@ Pywalzen Stuff
   &[selected] {
     & .urlbarView-favicon {
       background-color: var(--toolbar-bgcolor) !important;
+    }
+  }
+}
+
+#navigator-toolbox:not([animate="true"]) #titlebar {
+  &::before {
+    @media -moz-pref("zen.view.compact.color-sidebar") {
+      background: var(--surface) !important;
     }
   }
 }
