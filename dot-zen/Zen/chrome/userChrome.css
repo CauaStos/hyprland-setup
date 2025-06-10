@@ -21,6 +21,9 @@ Pywalzen Stuff
   #urlbar[breakout-extend="true"] > #urlbar-background {
     background: var(--surface-transparent) !important;
   }
+
+  /* Flashing workspace fix */
+  --zen-background-opacity: 1 !important;
 }
 
 #urlbar:not([focused="true"]):not([breakout-extend="true"])
